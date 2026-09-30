@@ -1,0 +1,208 @@
+2025-11-11 13:20:27,945 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn1'
+2025-11-11 13:20:27,945 - hdfs_clone.datanode.dn1 - INFO - MainThread - Starting DataNode 'dn1'...
+2025-11-11 13:20:28,973 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block report generated with 1 blocks.
+2025-11-11 13:20:29,002 - hdfs_clone.datanode.dn1 - INFO - MainThread - Sent block report with 1 blocks.
+2025-11-11 13:20:29,003 - hdfs_clone.datanode.dn1 - INFO - HeartbeatSender-dn1 - Heartbeat sender thread started.
+2025-11-11 13:20:29,003 - hdfs_clone.datanode.dn1 - INFO - MainThread - DataNode 'dn1' started successfully.
+2025-11-11 13:20:55,631 - hdfs_clone.datanode.dn1 - INFO - MainThread - Stopping DataNode 'dn1'...
+2025-11-11 13:20:55,632 - hdfs_clone.datanode.dn1 - INFO - HeartbeatSender-dn1 - Heartbeat sender thread stopped.
+2025-11-11 13:20:55,632 - hdfs_clone.datanode.dn1 - INFO - MainThread - DataNode 'dn1' stopped.
+2025-11-11 13:23:52,090 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn1'
+2025-11-11 13:23:52,090 - hdfs_clone.datanode.dn1 - INFO - MainThread - Starting DataNode 'dn1'...
+2025-11-11 13:23:53,107 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block report generated with 1 blocks.
+2025-11-11 13:23:53,117 - hdfs_clone.datanode.dn1 - INFO - MainThread - Sent block report with 1 blocks.
+2025-11-11 13:23:53,118 - hdfs_clone.datanode.dn1 - INFO - HeartbeatSender-dn1 - Heartbeat sender thread started.
+2025-11-11 13:23:53,118 - hdfs_clone.datanode.dn1 - INFO - MainThread - DataNode 'dn1' started successfully.
+2025-11-11 13:23:54,528 - hdfs_clone.datanode.dn1 - INFO - MainThread - Stopping DataNode 'dn1'...
+2025-11-11 13:23:54,529 - hdfs_clone.datanode.dn1 - INFO - HeartbeatSender-dn1 - Heartbeat sender thread stopped.
+2025-11-11 13:23:54,529 - hdfs_clone.datanode.dn1 - INFO - MainThread - DataNode 'dn1' stopped.
+2025-11-12 12:59:15,176 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn1'
+2025-11-12 12:59:15,177 - hdfs_clone.datanode.dn1 - INFO - MainThread - Starting DataNode 'dn1'...
+2025-11-12 13:08:33,339 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn1'
+2025-11-12 13:08:33,339 - hdfs_clone.datanode.dn1 - INFO - MainThread - Starting DataNode 'dn1'...
+2025-11-12 13:08:34,370 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block report generated with 1 blocks.
+2025-11-12 13:08:34,380 - hdfs_clone.datanode.dn1 - INFO - MainThread - Sent block report with 1 blocks.
+2025-11-12 13:08:34,380 - hdfs_clone.datanode.dn1 - INFO - HeartbeatSender-dn1 - Heartbeat sender thread started.
+2025-11-12 13:08:34,380 - hdfs_clone.datanode.dn1 - INFO - MainThread - DataNode 'dn1' started successfully.
+2025-11-12 13:09:10,702 - hdfs_clone.datanode.dn1 - ERROR - HeartbeatSender-dn1 - Error in heartbeat loop: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 64, in _heartbeat_sender
+    commands = self.namenode.send_heartbeat(self.datanode_id)
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1096, in __call__
+    return self.__send(self.__name, args)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1435, in __request
+    response = self.__transport.request(
+        self.__host,
+    ...<2 lines>...
+        verbose=self.__verbose
+        )
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1140, in request
+    return self.single_request(host, handler, request_body, verbose)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1152, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1265, in send_request
+    self.send_content(connection, request_body)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1295, in send_content
+    connection.endheaders(request_body)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1093, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1037, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1003, in connect
+    self.sock = self._create_connection(
+                ~~~~~~~~~~~~~~~~~~~~~~~^
+        (self.host,self.port), self.timeout, self.source_address)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 864, in create_connection
+    raise exceptions[0]
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 849, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-11-12 13:09:34,849 - hdfs_clone.datanode.dn1 - ERROR - HeartbeatSender-dn1 - Error in heartbeat loop: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 64, in _heartbeat_sender
+    commands = self.namenode.send_heartbeat(self.datanode_id)
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1096, in __call__
+    return self.__send(self.__name, args)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1435, in __request
+    response = self.__transport.request(
+        self.__host,
+    ...<2 lines>...
+        verbose=self.__verbose
+        )
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1140, in request
+    return self.single_request(host, handler, request_body, verbose)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1152, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1265, in send_request
+    self.send_content(connection, request_body)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1295, in send_content
+    connection.endheaders(request_body)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1093, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1037, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1003, in connect
+    self.sock = self._create_connection(
+                ~~~~~~~~~~~~~~~~~~~~~~~^
+        (self.host,self.port), self.timeout, self.source_address)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 864, in create_connection
+    raise exceptions[0]
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 849, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-11-12 13:09:58,914 - hdfs_clone.datanode.dn1 - ERROR - HeartbeatSender-dn1 - Error in heartbeat loop: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 64, in _heartbeat_sender
+    commands = self.namenode.send_heartbeat(self.datanode_id)
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1096, in __call__
+    return self.__send(self.__name, args)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1435, in __request
+    response = self.__transport.request(
+        self.__host,
+    ...<2 lines>...
+        verbose=self.__verbose
+        )
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1140, in request
+    return self.single_request(host, handler, request_body, verbose)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1152, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1265, in send_request
+    self.send_content(connection, request_body)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1295, in send_content
+    connection.endheaders(request_body)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1093, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1037, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1003, in connect
+    self.sock = self._create_connection(
+                ~~~~~~~~~~~~~~~~~~~~~~~^
+        (self.host,self.port), self.timeout, self.source_address)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 864, in create_connection
+    raise exceptions[0]
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 849, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-11-12 13:10:22,970 - hdfs_clone.datanode.dn1 - ERROR - HeartbeatSender-dn1 - Error in heartbeat loop: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 64, in _heartbeat_sender
+    commands = self.namenode.send_heartbeat(self.datanode_id)
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1096, in __call__
+    return self.__send(self.__name, args)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1435, in __request
+    response = self.__transport.request(
+        self.__host,
+    ...<2 lines>...
+        verbose=self.__verbose
+        )
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1140, in request
+    return self.single_request(host, handler, request_body, verbose)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1152, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1265, in send_request
+    self.send_content(connection, request_body)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1295, in send_content
+    connection.endheaders(request_body)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1093, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1037, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1003, in connect
+    self.sock = self._create_connection(
+                ~~~~~~~~~~~~~~~~~~~~~~~^
+        (self.host,self.port), self.timeout, self.source_address)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 864, in create_connection
+    raise exceptions[0]
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 849, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-11-12 13:17:56,581 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn1'
+2025-11-12 13:17:56,582 - hdfs_clone.datanode.dn1 - INFO - MainThread - Starting DataNode 'dn1'...
+2025-11-12 13:17:56,598 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block report generated with 1 blocks.
+2025-11-12 13:17:56,610 - hdfs_clone.datanode.dn1 - INFO - MainThread - Sent block report with 1 blocks.
+2025-11-12 13:17:56,611 - hdfs_clone.datanode.dn1 - INFO - HeartbeatSender-dn1 - Heartbeat sender thread started.
+2025-11-12 13:17:56,612 - hdfs_clone.datanode.dn1 - INFO - MainThread - DataNode 'dn1' started successfully.

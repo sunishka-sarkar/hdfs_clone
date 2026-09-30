@@ -1,0 +1,45 @@
+{
+  "namenode": {
+    "host": "localhost",
+    "port": 9000,
+    "data_dir": "./data/namenode",
+    "checkpoint_dir": "./data/checkpoints",
+    "checkpoint_period": 3600,
+    "checkpoint_txns": 1000000,
+    "safemode_threshold": 0.999,
+    "safemode_extension": 30,
+    "heartbeat_interval": 3,
+    "heartbeat_timeout": 600
+  },
+  "datanode": {
+    "base_dir": "./data/datanodes",
+    "num_datanodes": 2,
+    "data_dirs": ["./data/datanodes/dn1", "./data/datanodes/dn2", "./data/datanodes/dn3"],
+    "ports": [9001, 9002, 9003],
+    "heartbeat_interval": 3,
+    "block_report_interval": 21600,
+    "block_scanner_interval": 21600
+  },
+  "filesystem": {
+    "block_size": 134217728,
+    "default_replication": 3,
+    "max_replication": 512,
+    "min_replication": 1,
+    "packet_size": 65536,
+    "checksum_type": "CRC32C",
+    "permissions_enabled": true,
+    "permissions_superuser": "hdfs"
+  },
+  "client": {
+    "write_packet_size": 65536,
+    "read_buffer_size": 4096,
+    "max_retry": 3,
+    "connection_timeout": 60
+  },
+  "acls": {
+    "enabled": true
+  },
+  "quotas": {
+    "enabled": true
+  }
+}

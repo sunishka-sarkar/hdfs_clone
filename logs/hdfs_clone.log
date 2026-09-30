@@ -1,0 +1,1327 @@
+2025-11-04 08:19:17,277 - hdfs_clone.fsimage - INFO - MainThread - FsImageManager initialized. FsImage path: './data/namenode\fsimage.json'
+2025-11-04 08:19:17,277 - hdfs_clone.editlog - INFO - MainThread - EditLogManager initialized. EditLog path: './data/namenode\edits.json'
+2025-11-04 08:19:17,278 - hdfs_clone.block_manager - INFO - MainThread - BlockManager initialized.
+2025-11-04 08:19:17,278 - hdfs_clone.namenode - INFO - MainThread - NameNode components initialized.
+2025-11-04 08:19:17,278 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn1'
+2025-11-04 08:19:17,280 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn2'
+2025-11-04 08:19:17,281 - hdfs_clone.datanode.dn3.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn3'
+2025-11-04 08:19:17,281 - hdfs_clone - INFO - MainThread - --- Starting HDFS Clone Cluster ---
+2025-11-04 08:19:17,281 - hdfs_clone.namenode - INFO - MainThread - Starting NameNode...
+2025-11-04 08:19:17,281 - hdfs_clone.namespace - INFO - MainThread - Loading namespace from FsImage...
+2025-11-04 08:19:17,281 - hdfs_clone.fsimage - WARNING - MainThread - FsImage file not found. Creating a new initial namespace.
+2025-11-04 08:19:17,282 - hdfs_clone.namespace - INFO - MainThread - Replaying transactions from EditLog...
+2025-11-04 08:19:17,282 - hdfs_clone.editlog - INFO - MainThread - No EditLog found to load. Returning empty transaction list.
+2025-11-04 08:19:17,282 - hdfs_clone.namespace - INFO - MainThread - Namespace loaded and 0 transactions replayed.
+2025-11-04 08:19:17,283 - hdfs_clone.namenode - INFO - DataNodeHealthChecker - DataNode health checker thread started.
+2025-11-04 08:19:17,283 - hdfs_clone.namenode - INFO - MainThread - NameNode started successfully.
+2025-11-04 08:19:17,283 - hdfs_clone.block_manager - INFO - DataNodeHealthChecker - Running periodic health check for DataNodes...
+2025-11-04 08:19:17,283 - hdfs_clone.datanode.dn1 - INFO - MainThread - Starting DataNode 'dn1'...
+2025-11-04 08:19:17,283 - hdfs_clone.block_manager - INFO - DataNodeHealthChecker - DataNode health check complete.
+2025-11-04 08:19:17,284 - hdfs_clone.block_manager - INFO - MainThread - Registering DataNode: 'dn1'
+2025-11-04 08:19:17,284 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block report generated with 0 blocks.
+2025-11-04 08:19:17,286 - hdfs_clone.block_manager - INFO - MainThread - Processing block report from 'dn1' with 0 blocks.
+2025-11-04 08:19:17,287 - hdfs_clone.datanode.dn1 - INFO - MainThread - Sent block report with 0 blocks.
+2025-11-04 08:19:17,287 - hdfs_clone.datanode.dn1 - INFO - HeartbeatSender-dn1 - Heartbeat sender thread started.
+2025-11-04 08:19:17,287 - hdfs_clone.datanode.dn1 - INFO - MainThread - DataNode 'dn1' started successfully.
+2025-11-04 08:19:17,288 - hdfs_clone.datanode.dn2 - INFO - MainThread - Starting DataNode 'dn2'...
+2025-11-04 08:19:17,289 - hdfs_clone.block_manager - INFO - MainThread - Registering DataNode: 'dn2'
+2025-11-04 08:19:17,289 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block report generated with 0 blocks.
+2025-11-04 08:19:17,289 - hdfs_clone.block_manager - INFO - MainThread - Processing block report from 'dn2' with 0 blocks.
+2025-11-04 08:19:17,298 - hdfs_clone.datanode.dn2 - INFO - MainThread - Sent block report with 0 blocks.
+2025-11-04 08:19:17,303 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread started.
+2025-11-04 08:19:17,303 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' started successfully.
+2025-11-04 08:19:17,310 - hdfs_clone.datanode.dn3 - INFO - MainThread - Starting DataNode 'dn3'...
+2025-11-04 08:19:17,310 - hdfs_clone.block_manager - INFO - MainThread - Registering DataNode: 'dn3'
+2025-11-04 08:19:17,311 - hdfs_clone.datanode.dn3.storage - INFO - MainThread - Block report generated with 0 blocks.
+2025-11-04 08:19:17,311 - hdfs_clone.block_manager - INFO - MainThread - Processing block report from 'dn3' with 0 blocks.
+2025-11-04 08:19:17,311 - hdfs_clone.datanode.dn3 - INFO - MainThread - Sent block report with 0 blocks.
+2025-11-04 08:19:17,312 - hdfs_clone.datanode.dn3 - INFO - HeartbeatSender-dn3 - Heartbeat sender thread started.
+2025-11-04 08:19:17,312 - hdfs_clone.datanode.dn3 - INFO - MainThread - DataNode 'dn3' started successfully.
+2025-11-04 08:19:17,312 - hdfs_clone - INFO - MainThread - --- HDFS Clone Cluster is RUNNING. Press Ctrl+C to stop. ---
+2025-11-04 08:19:23,292 - hdfs_clone.block_manager - INFO - DataNodeHealthChecker - Running periodic health check for DataNodes...
+2025-11-04 08:19:23,293 - hdfs_clone.block_manager - INFO - DataNodeHealthChecker - DataNode health check complete.
+2025-11-04 08:19:29,305 - hdfs_clone.block_manager - INFO - DataNodeHealthChecker - Running periodic health check for DataNodes...
+2025-11-04 08:19:29,307 - hdfs_clone.block_manager - INFO - DataNodeHealthChecker - DataNode health check complete.
+2025-11-04 08:19:35,314 - hdfs_clone.block_manager - INFO - DataNodeHealthChecker - Running periodic health check for DataNodes...
+2025-11-04 08:19:35,316 - hdfs_clone.block_manager - INFO - DataNodeHealthChecker - DataNode health check complete.
+2025-11-04 08:19:41,326 - hdfs_clone.block_manager - INFO - DataNodeHealthChecker - Running periodic health check for DataNodes...
+2025-11-04 08:19:41,328 - hdfs_clone.block_manager - INFO - DataNodeHealthChecker - DataNode health check complete.
+2025-11-04 08:19:47,341 - hdfs_clone.block_manager - INFO - DataNodeHealthChecker - Running periodic health check for DataNodes...
+2025-11-04 08:19:47,344 - hdfs_clone.block_manager - INFO - DataNodeHealthChecker - DataNode health check complete.
+2025-11-04 08:19:53,348 - hdfs_clone.block_manager - INFO - DataNodeHealthChecker - Running periodic health check for DataNodes...
+2025-11-04 08:19:53,350 - hdfs_clone.block_manager - INFO - DataNodeHealthChecker - DataNode health check complete.
+2025-11-04 08:19:56,252 - hdfs_clone - INFO - MainThread - 
+Ctrl+C received. Shutting down the cluster...
+2025-11-04 08:19:56,252 - hdfs_clone - INFO - MainThread - --- Stopping HDFS Clone Cluster ---
+2025-11-04 08:19:56,252 - hdfs_clone.datanode.dn1 - INFO - MainThread - Stopping DataNode 'dn1'...
+2025-11-04 08:19:56,253 - hdfs_clone.datanode.dn1 - INFO - HeartbeatSender-dn1 - Heartbeat sender thread stopped.
+2025-11-04 08:19:56,253 - hdfs_clone.datanode.dn1 - INFO - MainThread - DataNode 'dn1' stopped.
+2025-11-04 08:19:56,253 - hdfs_clone.datanode.dn2 - INFO - MainThread - Stopping DataNode 'dn2'...
+2025-11-04 08:19:56,254 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread stopped.
+2025-11-04 08:19:56,254 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' stopped.
+2025-11-04 08:19:56,254 - hdfs_clone.datanode.dn3 - INFO - MainThread - Stopping DataNode 'dn3'...
+2025-11-04 08:19:56,254 - hdfs_clone.datanode.dn3 - INFO - HeartbeatSender-dn3 - Heartbeat sender thread stopped.
+2025-11-04 08:19:56,254 - hdfs_clone.datanode.dn3 - INFO - MainThread - DataNode 'dn3' stopped.
+2025-11-04 08:19:56,255 - hdfs_clone.namenode - INFO - MainThread - Stopping NameNode...
+2025-11-04 08:19:56,255 - hdfs_clone.namenode - INFO - DataNodeHealthChecker - DataNode health checker thread stopped.
+2025-11-04 08:19:56,255 - hdfs_clone.namenode - INFO - MainThread - NameNode stopped.
+2025-11-04 08:19:56,255 - hdfs_clone - INFO - MainThread - --- HDFS Clone Cluster has been shut down. ---
+2025-11-04 12:07:47,112 - hdfs_clone.fsimage - INFO - MainThread - FsImageManager initialized. FsImage path: './data/namenode\fsimage.json'
+2025-11-04 12:07:47,113 - hdfs_clone.editlog - INFO - MainThread - EditLogManager initialized. EditLog path: './data/namenode\edits.json'. Last txid: 0
+2025-11-04 12:07:47,113 - hdfs_clone.block_manager - INFO - MainThread - BlockManager initialized.
+2025-11-04 12:09:10,518 - hdfs_clone.fsimage - INFO - MainThread - FsImageManager initialized. FsImage path: './data/namenode\fsimage.json'
+2025-11-04 12:09:10,519 - hdfs_clone.editlog - INFO - MainThread - EditLogManager initialized. EditLog path: './data/namenode\edits.json'. Last txid: 0
+2025-11-04 12:09:10,519 - hdfs_clone.block_manager - INFO - MainThread - BlockManager initialized.
+2025-11-04 12:09:10,520 - hdfs_clone.block_manager - INFO - MainThread - Loading topology from 'config/topology.json'
+2025-11-04 12:09:10,521 - hdfs_clone.block_manager - INFO - MainThread - Topology loaded: 2 racks found.
+2025-11-04 12:09:10,531 - hdfs_clone.namenode - INFO - MainThread - NameNode components initialized.
+2025-11-04 12:09:10,536 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn1'
+2025-11-04 12:09:10,538 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn2'
+2025-11-04 12:09:10,543 - hdfs_clone.datanode.dn3.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn3'
+2025-11-04 12:09:10,544 - hdfs_clone.client - INFO - MainThread - HDFSClient initialized.
+2025-11-04 12:09:10,552 - hdfs_clone - INFO - MainThread - --- Starting HDFS Clone Cluster ---
+2025-11-04 12:09:10,552 - hdfs_clone.namenode - INFO - MainThread - Starting NameNode...
+2025-11-04 12:09:10,552 - hdfs_clone.namenode - WARNING - MainThread - ==================================================
+2025-11-04 12:09:10,552 - hdfs_clone.namenode - WARNING - MainThread - NameNode is starting in SAFE MODE. Write operations are disabled.
+2025-11-04 12:09:10,553 - hdfs_clone.namenode - WARNING - MainThread - ==================================================
+2025-11-04 12:09:10,553 - hdfs_clone.namespace - INFO - MainThread - Loading namespace from FsImage...
+2025-11-04 12:09:10,553 - hdfs_clone.fsimage - WARNING - MainThread - FsImage file not found. Creating a new initial namespace.
+2025-11-04 12:09:10,554 - hdfs_clone.namespace - INFO - MainThread - Replaying transactions from EditLog...
+2025-11-04 12:09:10,554 - hdfs_clone.editlog - INFO - MainThread - No EditLog found to load. Returning empty transaction list.
+2025-11-04 12:09:10,554 - hdfs_clone.namespace - INFO - MainThread - Namespace loaded and 0 transactions replayed.
+2025-11-04 12:09:10,554 - hdfs_clone.namespace - INFO - MainThread - Building block-to-path map from loaded namespace...
+2025-11-04 12:09:10,554 - hdfs_clone.namespace - INFO - MainThread - Block-to-path map built with 0 entries.
+2025-11-04 12:09:10,555 - hdfs_clone.namespace - INFO - MainThread - Calculating initial quota usage...
+2025-11-04 12:09:10,555 - hdfs_clone.namespace - INFO - MainThread - Initial quota usage calculated.
+2025-11-04 12:09:10,556 - hdfs_clone.namenode - INFO - DataNodeHealthChecker - DataNode health checker thread started.
+2025-11-04 12:09:10,556 - hdfs_clone.replication_manager - INFO - MainThread - Starting Replication Manager...
+2025-11-04 12:09:10,565 - hdfs_clone.dashboard - INFO - MainThread - Starting dashboard thread...
+2025-11-04 12:09:10,566 - hdfs_clone.dashboard - INFO - DashboardThread - Starting Flask server on http://localhost:5001
+2025-11-04 12:09:18,544 - hdfs_clone - CRITICAL - MainThread - An unexpected error occurred in main: [WinError 225] Operation did not complete successfully because the file contains a virus or potentially unwanted software
+Traceback (most recent call last):
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\main.py", line 43, in main
+    namenode.start()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\namenode\namenode.py", line 69, in start
+    self.dashboard.start()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\namenode\dashboard.py", line 142, in start
+    self.public_url = ngrok.connect(self.port)
+                      ~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyngrok\ngrok.py", line 387, in connect
+    api_url = get_ngrok_process(pyngrok_config).api_url
+              ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyngrok\ngrok.py", line 203, in get_ngrok_process
+    return process.get_process(pyngrok_config)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyngrok\process.py", line 271, in get_process
+    return _start_process(pyngrok_config)
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyngrok\process.py", line 414, in _start_process
+    proc = subprocess.Popen(start, **popen_kwargs)
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1554, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+OSError: [WinError 225] Operation did not complete successfully because the file contains a virus or potentially unwanted software
+2025-11-04 12:09:18,550 - hdfs_clone - INFO - MainThread - --- Stopping HDFS Clone Cluster ---
+2025-11-04 12:09:18,550 - hdfs_clone.secondary_namenode - INFO - MainThread - Stopping Secondary NameNode...
+2025-11-04 12:09:18,550 - hdfs_clone.secondary_namenode - INFO - MainThread - Secondary NameNode stopped.
+2025-11-04 12:09:18,550 - hdfs_clone.datanode.dn1 - INFO - MainThread - Stopping DataNode 'dn1'...
+2025-11-04 12:09:18,550 - hdfs_clone.datanode.dn1 - INFO - MainThread - DataNode 'dn1' stopped.
+2025-11-04 12:09:18,551 - hdfs_clone.datanode.dn2 - INFO - MainThread - Stopping DataNode 'dn2'...
+2025-11-04 12:09:18,551 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' stopped.
+2025-11-04 12:09:18,551 - hdfs_clone.datanode.dn3 - INFO - MainThread - Stopping DataNode 'dn3'...
+2025-11-04 12:09:18,551 - hdfs_clone.datanode.dn3 - INFO - MainThread - DataNode 'dn3' stopped.
+2025-11-04 12:09:18,552 - hdfs_clone.namenode - INFO - MainThread - Stopping NameNode...
+2025-11-04 12:09:18,552 - hdfs_clone.dashboard - INFO - MainThread - Stopping dashboard...
+2025-11-04 12:09:18,552 - hdfs_clone.namenode - INFO - DataNodeHealthChecker - DataNode health checker thread stopped.
+2025-11-04 12:09:20,586 - hdfs_clone.replication_manager - INFO - MainThread - Stopping Replication Manager...
+2025-11-04 12:09:20,587 - hdfs_clone.replication_manager - INFO - MainThread - Replication Manager stopped.
+2025-11-04 12:09:20,598 - hdfs_clone.namenode - INFO - MainThread - NameNode stopped.
+2025-11-04 12:09:20,599 - hdfs_clone - INFO - MainThread - --- HDFS Clone Cluster has been shut down. ---
+2025-11-04 12:11:50,725 - hdfs_clone.fsimage - INFO - MainThread - FsImageManager initialized. FsImage path: './data/namenode\fsimage.json'
+2025-11-04 12:11:50,726 - hdfs_clone.editlog - INFO - MainThread - EditLogManager initialized. EditLog path: './data/namenode\edits.json'. Last txid: 0
+2025-11-04 12:11:50,727 - hdfs_clone.block_manager - INFO - MainThread - BlockManager initialized.
+2025-11-04 12:11:50,727 - hdfs_clone.block_manager - INFO - MainThread - Loading topology from 'config/topology.json'
+2025-11-04 12:11:50,738 - hdfs_clone.block_manager - INFO - MainThread - Topology loaded: 2 racks found.
+2025-11-04 12:11:50,741 - hdfs_clone.namenode - INFO - MainThread - NameNode components initialized.
+2025-11-04 12:11:50,742 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn1'
+2025-11-04 12:11:50,743 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn2'
+2025-11-04 12:11:50,744 - hdfs_clone.datanode.dn3.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn3'
+2025-11-04 12:11:50,744 - hdfs_clone.client - INFO - MainThread - HDFSClient initialized.
+2025-11-04 12:11:50,745 - hdfs_clone - INFO - MainThread - --- Starting HDFS Clone Cluster ---
+2025-11-04 12:11:50,745 - hdfs_clone.namenode - INFO - MainThread - Starting NameNode...
+2025-11-04 12:11:50,745 - hdfs_clone.namenode - WARNING - MainThread - ==================================================
+2025-11-04 12:11:50,746 - hdfs_clone.namenode - WARNING - MainThread - NameNode is starting in SAFE MODE. Write operations are disabled.
+2025-11-04 12:11:50,746 - hdfs_clone.namenode - WARNING - MainThread - ==================================================
+2025-11-04 12:11:50,746 - hdfs_clone.namespace - INFO - MainThread - Loading namespace from FsImage...
+2025-11-04 12:11:50,746 - hdfs_clone.fsimage - WARNING - MainThread - FsImage file not found. Creating a new initial namespace.
+2025-11-04 12:11:50,746 - hdfs_clone.namespace - INFO - MainThread - Replaying transactions from EditLog...
+2025-11-04 12:11:50,747 - hdfs_clone.editlog - INFO - MainThread - No EditLog found to load. Returning empty transaction list.
+2025-11-04 12:11:50,747 - hdfs_clone.namespace - INFO - MainThread - Namespace loaded and 0 transactions replayed.
+2025-11-04 12:11:50,747 - hdfs_clone.namespace - INFO - MainThread - Building block-to-path map from loaded namespace...
+2025-11-04 12:11:50,748 - hdfs_clone.namespace - INFO - MainThread - Block-to-path map built with 0 entries.
+2025-11-04 12:11:50,753 - hdfs_clone.namespace - INFO - MainThread - Calculating initial quota usage...
+2025-11-04 12:11:50,754 - hdfs_clone.namespace - INFO - MainThread - Initial quota usage calculated.
+2025-11-04 12:11:50,757 - hdfs_clone.namenode - INFO - DataNodeHealthChecker - DataNode health checker thread started.
+2025-11-04 12:11:50,757 - hdfs_clone.replication_manager - INFO - MainThread - Starting Replication Manager...
+2025-11-04 12:11:50,757 - hdfs_clone.dashboard - INFO - MainThread - Starting dashboard thread...
+2025-11-04 12:11:50,758 - hdfs_clone.dashboard - INFO - DashboardThread - Starting Flask server on http://localhost:5001
+2025-11-04 12:11:57,948 - hdfs_clone - CRITICAL - MainThread - An unexpected error occurred in main: [WinError 225] Operation did not complete successfully because the file contains a virus or potentially unwanted software
+Traceback (most recent call last):
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\main.py", line 43, in main
+    namenode.start()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\namenode\namenode.py", line 69, in start
+    self.dashboard.start()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\namenode\dashboard.py", line 144, in start
+    self.public_url = ngrok.connect(self.port)
+                      ~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyngrok\ngrok.py", line 387, in connect
+    api_url = get_ngrok_process(pyngrok_config).api_url
+              ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyngrok\ngrok.py", line 203, in get_ngrok_process
+    return process.get_process(pyngrok_config)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyngrok\process.py", line 271, in get_process
+    return _start_process(pyngrok_config)
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\site-packages\pyngrok\process.py", line 414, in _start_process
+    proc = subprocess.Popen(start, **popen_kwargs)
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1554, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+OSError: [WinError 225] Operation did not complete successfully because the file contains a virus or potentially unwanted software
+2025-11-04 12:11:58,083 - hdfs_clone - INFO - MainThread - --- Stopping HDFS Clone Cluster ---
+2025-11-04 12:11:58,084 - hdfs_clone.secondary_namenode - INFO - MainThread - Stopping Secondary NameNode...
+2025-11-04 12:11:58,084 - hdfs_clone.secondary_namenode - INFO - MainThread - Secondary NameNode stopped.
+2025-11-04 12:11:58,085 - hdfs_clone.datanode.dn1 - INFO - MainThread - Stopping DataNode 'dn1'...
+2025-11-04 12:11:58,085 - hdfs_clone.datanode.dn1 - INFO - MainThread - DataNode 'dn1' stopped.
+2025-11-04 12:11:58,085 - hdfs_clone.datanode.dn2 - INFO - MainThread - Stopping DataNode 'dn2'...
+2025-11-04 12:11:58,085 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' stopped.
+2025-11-04 12:11:58,086 - hdfs_clone.datanode.dn3 - INFO - MainThread - Stopping DataNode 'dn3'...
+2025-11-04 12:11:58,086 - hdfs_clone.datanode.dn3 - INFO - MainThread - DataNode 'dn3' stopped.
+2025-11-04 12:11:58,086 - hdfs_clone.namenode - INFO - MainThread - Stopping NameNode...
+2025-11-04 12:11:58,086 - hdfs_clone.dashboard - INFO - MainThread - Stopping dashboard...
+2025-11-04 12:11:58,087 - hdfs_clone.namenode - INFO - DataNodeHealthChecker - DataNode health checker thread stopped.
+2025-11-04 12:12:00,177 - hdfs_clone.replication_manager - INFO - MainThread - Stopping Replication Manager...
+2025-11-04 12:12:00,178 - hdfs_clone.replication_manager - INFO - MainThread - Replication Manager stopped.
+2025-11-04 12:12:00,179 - hdfs_clone.namenode - INFO - MainThread - NameNode stopped.
+2025-11-04 12:12:00,181 - hdfs_clone - INFO - MainThread - --- HDFS Clone Cluster has been shut down. ---
+2025-11-04 12:14:00,162 - hdfs_clone.fsimage - INFO - MainThread - FsImageManager initialized. FsImage path: './data/namenode\fsimage.json'
+2025-11-04 12:14:00,163 - hdfs_clone.editlog - INFO - MainThread - EditLogManager initialized. EditLog path: './data/namenode\edits.json'. Last txid: 0
+2025-11-04 12:14:00,163 - hdfs_clone.block_manager - INFO - MainThread - BlockManager initialized.
+2025-11-04 12:14:00,163 - hdfs_clone.block_manager - INFO - MainThread - Loading topology from 'config/topology.json'
+2025-11-04 12:14:00,164 - hdfs_clone.block_manager - INFO - MainThread - Topology loaded: 2 racks found.
+2025-11-04 12:14:00,165 - hdfs_clone.namenode - INFO - MainThread - NameNode components initialized.
+2025-11-04 12:14:00,165 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn1'
+2025-11-04 12:14:00,165 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn2'
+2025-11-04 12:14:00,166 - hdfs_clone.datanode.dn3.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn3'
+2025-11-04 12:14:00,166 - hdfs_clone.client - INFO - MainThread - HDFSClient initialized.
+2025-11-04 12:14:00,166 - hdfs_clone - INFO - MainThread - --- Starting HDFS Clone Cluster ---
+2025-11-04 12:14:00,166 - hdfs_clone.namenode - INFO - MainThread - Starting NameNode...
+2025-11-04 12:14:00,166 - hdfs_clone.namenode - WARNING - MainThread - ==================================================
+2025-11-04 12:14:00,166 - hdfs_clone.namenode - WARNING - MainThread - NameNode is starting in SAFE MODE. Write operations are disabled.
+2025-11-04 12:14:00,166 - hdfs_clone.namenode - WARNING - MainThread - ==================================================
+2025-11-04 12:14:00,167 - hdfs_clone.namespace - INFO - MainThread - Loading namespace from FsImage...
+2025-11-04 12:14:00,167 - hdfs_clone.fsimage - WARNING - MainThread - FsImage file not found. Creating a new initial namespace.
+2025-11-04 12:14:00,167 - hdfs_clone.namespace - INFO - MainThread - Replaying transactions from EditLog...
+2025-11-04 12:14:00,167 - hdfs_clone.editlog - INFO - MainThread - No EditLog found to load. Returning empty transaction list.
+2025-11-04 12:14:00,167 - hdfs_clone.namespace - INFO - MainThread - Namespace loaded and 0 transactions replayed.
+2025-11-04 12:14:00,167 - hdfs_clone.namespace - INFO - MainThread - Building block-to-path map from loaded namespace...
+2025-11-04 12:14:00,168 - hdfs_clone.namespace - INFO - MainThread - Block-to-path map built with 0 entries.
+2025-11-04 12:14:00,168 - hdfs_clone.namespace - INFO - MainThread - Calculating initial quota usage...
+2025-11-04 12:14:00,168 - hdfs_clone.namespace - INFO - MainThread - Initial quota usage calculated.
+2025-11-04 12:14:00,169 - hdfs_clone.namenode - INFO - DataNodeHealthChecker - DataNode health checker thread started.
+2025-11-04 12:14:00,170 - hdfs_clone.replication_manager - INFO - MainThread - Starting Replication Manager...
+2025-11-04 12:14:00,171 - hdfs_clone.dashboard - INFO - MainThread - Starting dashboard thread...
+2025-11-04 12:14:00,172 - hdfs_clone.dashboard - INFO - DashboardThread - Starting Flask server on http://localhost:5001
+2025-11-04 12:14:00,172 - hdfs_clone.dashboard - INFO - MainThread - ============================================================
+2025-11-04 12:14:00,173 - hdfs_clone.dashboard - INFO - MainThread - DASHBOARD IS LIVE!
+2025-11-04 12:14:00,173 - hdfs_clone.dashboard - INFO - MainThread -   * Local URL:  http://localhost:5001
+2025-11-04 12:14:00,174 - hdfs_clone.dashboard - INFO - MainThread - ============================================================
+2025-11-04 12:14:00,174 - hdfs_clone.namenode - INFO - MainThread - NameNode started successfully.
+2025-11-04 12:14:00,174 - hdfs_clone.datanode.dn1 - INFO - MainThread - Starting DataNode 'dn1'...
+2025-11-04 12:14:00,174 - hdfs_clone.block_manager - INFO - MainThread - Registering DataNode: 'dn1'
+2025-11-04 12:14:00,175 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block report generated with 0 blocks.
+2025-11-04 12:14:00,175 - hdfs_clone.namenode - INFO - MainThread - Received block report from 'dn1' with 0 blocks.
+2025-11-04 12:14:00,175 - hdfs_clone.block_manager - INFO - MainThread - Processing block report from 'dn1' with 0 blocks.
+2025-11-04 12:14:00,175 - hdfs_clone.namenode - INFO - MainThread - Total blocks is 0, leaving safe mode immediately.
+2025-11-04 12:14:00,175 - hdfs_clone.namenode - INFO - MainThread - ==================================================
+2025-11-04 12:14:00,176 - hdfs_clone.namenode - INFO - MainThread - NameNode is LEAVING SAFE MODE. Write operations are now enabled.
+2025-11-04 12:14:00,176 - hdfs_clone.namenode - INFO - MainThread - ==================================================
+2025-11-04 12:14:00,176 - hdfs_clone.datanode.dn1 - INFO - MainThread - Sent block report with 0 blocks.
+2025-11-04 12:14:00,188 - hdfs_clone.datanode.dn1 - INFO - HeartbeatSender-dn1 - Heartbeat sender thread started.
+2025-11-04 12:14:00,188 - hdfs_clone.datanode.dn1 - INFO - MainThread - DataNode 'dn1' started successfully.
+2025-11-04 12:14:00,190 - hdfs_clone.datanode.dn2 - INFO - MainThread - Starting DataNode 'dn2'...
+2025-11-04 12:14:00,191 - hdfs_clone.block_manager - INFO - MainThread - Registering DataNode: 'dn2'
+2025-11-04 12:14:00,192 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block report generated with 0 blocks.
+2025-11-04 12:14:00,192 - hdfs_clone.namenode - INFO - MainThread - Received block report from 'dn2' with 0 blocks.
+2025-11-04 12:14:00,192 - hdfs_clone.block_manager - INFO - MainThread - Processing block report from 'dn2' with 0 blocks.
+2025-11-04 12:14:00,192 - hdfs_clone.datanode.dn2 - INFO - MainThread - Sent block report with 0 blocks.
+2025-11-04 12:14:00,193 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread started.
+2025-11-04 12:14:00,193 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' started successfully.
+2025-11-04 12:14:00,194 - hdfs_clone.datanode.dn3 - INFO - MainThread - Starting DataNode 'dn3'...
+2025-11-04 12:14:00,194 - hdfs_clone.block_manager - INFO - MainThread - Registering DataNode: 'dn3'
+2025-11-04 12:14:00,194 - hdfs_clone.datanode.dn3.storage - INFO - MainThread - Block report generated with 0 blocks.
+2025-11-04 12:14:00,195 - hdfs_clone.namenode - INFO - MainThread - Received block report from 'dn3' with 0 blocks.
+2025-11-04 12:14:00,196 - hdfs_clone.block_manager - INFO - MainThread - Processing block report from 'dn3' with 0 blocks.
+2025-11-04 12:14:00,196 - hdfs_clone.datanode.dn3 - INFO - MainThread - Sent block report with 0 blocks.
+2025-11-04 12:14:00,197 - hdfs_clone.datanode.dn3 - INFO - HeartbeatSender-dn3 - Heartbeat sender thread started.
+2025-11-04 12:14:00,197 - hdfs_clone.datanode.dn3 - INFO - MainThread - DataNode 'dn3' started successfully.
+2025-11-04 12:14:00,198 - hdfs_clone.secondary_namenode - INFO - MainThread - Starting Secondary NameNode...
+2025-11-04 12:14:00,203 - hdfs_clone.secondary_namenode - INFO - SecondaryNameNodeThread - Checkpointing scheduled to run every 3600 seconds.
+2025-11-04 12:14:00,203 - hdfs_clone.secondary_namenode - INFO - SecondaryNameNodeThread - Checkpoint period started. Waiting...
+2025-11-04 12:14:30,187 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-04 12:14:30,188 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-04 12:15:00,192 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-04 12:15:00,193 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-04 12:15:30,195 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-04 12:15:30,195 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-04 12:15:57,156 - hdfs_clone.client - INFO - MainThread - Requesting ls for path: '/' by user 'testuser'
+2025-11-04 12:15:58,859 - hdfs_clone.client - INFO - MainThread - Requesting ls for path: '/' by user 'testuser'
+2025-11-04 12:16:00,200 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-04 12:16:00,201 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-04 12:16:30,214 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-04 12:16:30,216 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-04 12:16:34,842 - hdfs_clone.fsimage - INFO - MainThread - FsImageManager initialized. FsImage path: './data/namenode\fsimage.json'
+2025-11-04 12:16:34,843 - hdfs_clone.editlog - INFO - MainThread - EditLogManager initialized. EditLog path: './data/namenode\edits.json'. Last txid: 0
+2025-11-04 12:16:34,843 - hdfs_clone.block_manager - INFO - MainThread - BlockManager initialized.
+2025-11-04 12:16:34,843 - hdfs_clone.block_manager - INFO - MainThread - Loading topology from 'config/topology.json'
+2025-11-04 12:16:34,843 - hdfs_clone.block_manager - INFO - MainThread - Topology loaded: 2 racks found.
+2025-11-04 12:16:34,846 - hdfs_clone.namenode - INFO - MainThread - NameNode components initialized.
+2025-11-04 12:16:34,846 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn1'
+2025-11-04 12:16:34,846 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn2'
+2025-11-04 12:16:34,846 - hdfs_clone.datanode.dn3.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn3'
+2025-11-04 12:16:34,847 - hdfs_clone.client - INFO - MainThread - HDFSClient initialized.
+2025-11-04 12:16:34,847 - hdfs_clone - INFO - MainThread - --- Starting HDFS Clone Cluster ---
+2025-11-04 12:16:34,847 - hdfs_clone.namenode - INFO - MainThread - Starting NameNode...
+2025-11-04 12:16:34,847 - hdfs_clone.namenode - WARNING - MainThread - ==================================================
+2025-11-04 12:16:34,847 - hdfs_clone.namenode - WARNING - MainThread - NameNode is starting in SAFE MODE. Write operations are disabled.
+2025-11-04 12:16:34,848 - hdfs_clone.namenode - WARNING - MainThread - ==================================================
+2025-11-04 12:16:34,848 - hdfs_clone.namespace - INFO - MainThread - Loading namespace from FsImage...
+2025-11-04 12:16:34,848 - hdfs_clone.fsimage - WARNING - MainThread - FsImage file not found. Creating a new initial namespace.
+2025-11-04 12:16:34,850 - hdfs_clone.namespace - INFO - MainThread - Replaying transactions from EditLog...
+2025-11-04 12:16:34,850 - hdfs_clone.editlog - INFO - MainThread - No EditLog found to load. Returning empty transaction list.
+2025-11-04 12:16:34,851 - hdfs_clone.namespace - INFO - MainThread - Namespace loaded and 0 transactions replayed.
+2025-11-04 12:16:34,851 - hdfs_clone.namespace - INFO - MainThread - Building block-to-path map from loaded namespace...
+2025-11-04 12:16:34,851 - hdfs_clone.namespace - INFO - MainThread - Block-to-path map built with 0 entries.
+2025-11-04 12:16:34,851 - hdfs_clone.namespace - INFO - MainThread - Calculating initial quota usage...
+2025-11-04 12:16:34,851 - hdfs_clone.namespace - INFO - MainThread - Initial quota usage calculated.
+2025-11-04 12:16:34,855 - hdfs_clone.namenode - INFO - DataNodeHealthChecker - DataNode health checker thread started.
+2025-11-04 12:16:34,855 - hdfs_clone.replication_manager - INFO - MainThread - Starting Replication Manager...
+2025-11-04 12:16:34,862 - hdfs_clone.dashboard - INFO - MainThread - Starting dashboard thread...
+2025-11-04 12:16:34,865 - hdfs_clone.dashboard - INFO - DashboardThread - Starting Flask server on http://localhost:5001
+2025-11-04 12:16:34,865 - hdfs_clone.dashboard - INFO - MainThread - ============================================================
+2025-11-04 12:16:34,867 - hdfs_clone.dashboard - INFO - MainThread - DASHBOARD IS LIVE!
+2025-11-04 12:16:34,867 - hdfs_clone.dashboard - INFO - MainThread -   * Local URL:  http://localhost:5001
+2025-11-04 12:16:34,867 - hdfs_clone.dashboard - INFO - MainThread - ============================================================
+2025-11-04 12:16:34,867 - hdfs_clone.namenode - INFO - MainThread - NameNode started successfully.
+2025-11-04 12:16:34,867 - hdfs_clone.datanode.dn1 - INFO - MainThread - Starting DataNode 'dn1'...
+2025-11-04 12:16:34,868 - hdfs_clone.block_manager - INFO - MainThread - Registering DataNode: 'dn1'
+2025-11-04 12:16:34,868 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block report generated with 0 blocks.
+2025-11-04 12:16:34,868 - hdfs_clone.namenode - INFO - MainThread - Received block report from 'dn1' with 0 blocks.
+2025-11-04 12:16:34,868 - hdfs_clone.block_manager - INFO - MainThread - Processing block report from 'dn1' with 0 blocks.
+2025-11-04 12:16:34,868 - hdfs_clone.namenode - INFO - MainThread - Total blocks is 0, leaving safe mode immediately.
+2025-11-04 12:16:34,868 - hdfs_clone.namenode - INFO - MainThread - ==================================================
+2025-11-04 12:16:34,868 - hdfs_clone.namenode - INFO - MainThread - NameNode is LEAVING SAFE MODE. Write operations are now enabled.
+2025-11-04 12:16:34,868 - hdfs_clone.namenode - INFO - MainThread - ==================================================
+2025-11-04 12:16:34,868 - hdfs_clone.datanode.dn1 - INFO - MainThread - Sent block report with 0 blocks.
+2025-11-04 12:16:34,869 - hdfs_clone.datanode.dn1 - INFO - HeartbeatSender-dn1 - Heartbeat sender thread started.
+2025-11-04 12:16:34,869 - hdfs_clone.datanode.dn1 - INFO - MainThread - DataNode 'dn1' started successfully.
+2025-11-04 12:16:34,874 - hdfs_clone.datanode.dn2 - INFO - MainThread - Starting DataNode 'dn2'...
+2025-11-04 12:16:34,874 - hdfs_clone.block_manager - INFO - MainThread - Registering DataNode: 'dn2'
+2025-11-04 12:16:34,874 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block report generated with 0 blocks.
+2025-11-04 12:16:34,874 - hdfs_clone.namenode - INFO - MainThread - Received block report from 'dn2' with 0 blocks.
+2025-11-04 12:16:34,874 - hdfs_clone.block_manager - INFO - MainThread - Processing block report from 'dn2' with 0 blocks.
+2025-11-04 12:16:34,875 - hdfs_clone.datanode.dn2 - INFO - MainThread - Sent block report with 0 blocks.
+2025-11-04 12:16:34,876 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread started.
+2025-11-04 12:16:34,877 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' started successfully.
+2025-11-04 12:16:34,877 - hdfs_clone.datanode.dn3 - INFO - MainThread - Starting DataNode 'dn3'...
+2025-11-04 12:16:34,877 - hdfs_clone.block_manager - INFO - MainThread - Registering DataNode: 'dn3'
+2025-11-04 12:16:34,878 - hdfs_clone.datanode.dn3.storage - INFO - MainThread - Block report generated with 0 blocks.
+2025-11-04 12:16:34,878 - hdfs_clone.namenode - INFO - MainThread - Received block report from 'dn3' with 0 blocks.
+2025-11-04 12:16:34,879 - hdfs_clone.block_manager - INFO - MainThread - Processing block report from 'dn3' with 0 blocks.
+2025-11-04 12:16:34,879 - hdfs_clone.datanode.dn3 - INFO - MainThread - Sent block report with 0 blocks.
+2025-11-04 12:16:34,879 - hdfs_clone.datanode.dn3 - INFO - HeartbeatSender-dn3 - Heartbeat sender thread started.
+2025-11-04 12:16:34,879 - hdfs_clone.datanode.dn3 - INFO - MainThread - DataNode 'dn3' started successfully.
+2025-11-04 12:16:34,879 - hdfs_clone.secondary_namenode - INFO - MainThread - Starting Secondary NameNode...
+2025-11-04 12:16:34,881 - hdfs_clone.secondary_namenode - INFO - SecondaryNameNodeThread - Checkpointing scheduled to run every 3600 seconds.
+2025-11-04 12:16:34,881 - hdfs_clone - INFO - MainThread - --- HDFS Clone Cluster is RUNNING. Press Ctrl+C to stop. ---
+2025-11-04 12:16:34,881 - hdfs_clone.secondary_namenode - INFO - SecondaryNameNodeThread - Checkpoint period started. Waiting...
+2025-11-04 12:17:00,226 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-04 12:17:00,227 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-04 12:29:39,215 - hdfs_clone.fsimage - INFO - MainThread - FsImageManager initialized. FsImage path: './data/namenode\fsimage.json'
+2025-11-04 12:29:39,216 - hdfs_clone.editlog - INFO - MainThread - EditLogManager initialized. EditLog path: './data/namenode\edits.json'. Last txid: 0
+2025-11-04 12:29:39,216 - hdfs_clone.block_manager - INFO - MainThread - BlockManager initialized.
+2025-11-04 12:29:39,216 - hdfs_clone.block_manager - INFO - MainThread - Loading topology from 'config/topology.json'
+2025-11-04 12:29:39,216 - hdfs_clone.block_manager - INFO - MainThread - Topology loaded: 2 racks found.
+2025-11-04 12:29:39,218 - hdfs_clone.namenode - INFO - MainThread - NameNode components initialized.
+2025-11-04 12:29:39,218 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn1'
+2025-11-04 12:29:39,218 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn2'
+2025-11-04 12:29:39,218 - hdfs_clone.datanode.dn3.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn3'
+2025-11-04 12:29:39,219 - hdfs_clone.client - INFO - MainThread - HDFSClient initialized.
+2025-11-04 12:29:39,219 - hdfs_clone.namenode - INFO - MainThread - Starting NameNode...
+2025-11-04 12:29:39,219 - hdfs_clone.namenode - WARNING - MainThread - ==================================================
+2025-11-04 12:29:39,219 - hdfs_clone.namenode - WARNING - MainThread - NameNode is starting in SAFE MODE. Writes disabled.
+2025-11-04 12:29:39,219 - hdfs_clone.namenode - WARNING - MainThread - ==================================================
+2025-11-04 12:29:39,219 - hdfs_clone.namespace - INFO - MainThread - Loading namespace from FsImage...
+2025-11-04 12:29:39,220 - hdfs_clone.fsimage - WARNING - MainThread - FsImage file not found. Creating a new initial namespace.
+2025-11-04 12:29:39,220 - hdfs_clone.namespace - INFO - MainThread - Replaying transactions from EditLog...
+2025-11-04 12:29:39,220 - hdfs_clone.editlog - INFO - MainThread - No EditLog found to load. Returning empty transaction list.
+2025-11-04 12:29:39,220 - hdfs_clone.namespace - INFO - MainThread - Namespace loaded and 0 transactions replayed.
+2025-11-04 12:29:39,220 - hdfs_clone.namespace - INFO - MainThread - Building block-to-path map from loaded namespace...
+2025-11-04 12:29:39,220 - hdfs_clone.namespace - INFO - MainThread - Block-to-path map built with 0 entries.
+2025-11-04 12:29:39,221 - hdfs_clone.namespace - INFO - MainThread - Calculating initial quota usage...
+2025-11-04 12:29:39,221 - hdfs_clone.namespace - INFO - MainThread - Initial quota usage calculated.
+2025-11-04 12:29:39,222 - hdfs_clone.replication_manager - INFO - MainThread - Starting Replication Manager...
+2025-11-04 12:29:39,224 - hdfs_clone.dashboard - INFO - MainThread - Starting dashboard thread...
+2025-11-04 12:29:39,225 - hdfs_clone.dashboard - INFO - DashboardThread - Starting Flask server on http://localhost:5001
+2025-11-04 12:29:39,225 - hdfs_clone.dashboard - INFO - MainThread - ============================================================
+2025-11-04 12:29:39,226 - hdfs_clone.dashboard - INFO - MainThread - DASHBOARD IS LIVE!
+2025-11-04 12:29:39,226 - hdfs_clone.dashboard - INFO - MainThread -   * Local URL:  http://localhost:5001
+2025-11-04 12:29:39,226 - hdfs_clone.dashboard - INFO - MainThread - ============================================================
+2025-11-04 12:29:39,226 - hdfs_clone.namenode - INFO - MainThread - NameNode started successfully.
+2025-11-04 12:29:39,226 - hdfs_clone.datanode.dn1 - INFO - MainThread - Starting DataNode 'dn1'...
+2025-11-04 12:29:39,227 - hdfs_clone.block_manager - INFO - MainThread - Registering DataNode: 'dn1'
+2025-11-04 12:29:39,227 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block report generated with 0 blocks.
+2025-11-04 12:29:39,227 - hdfs_clone.block_manager - INFO - MainThread - Processing block report from 'dn1' with 0 blocks.
+2025-11-04 12:29:39,230 - hdfs_clone.namenode - INFO - MainThread - ==================================================
+2025-11-04 12:29:39,231 - hdfs_clone.namenode - INFO - MainThread - NameNode LEAVING SAFE MODE. Writes enabled.
+2025-11-04 12:29:39,231 - hdfs_clone.namenode - INFO - MainThread - ==================================================
+2025-11-04 12:29:39,231 - hdfs_clone.datanode.dn1 - INFO - MainThread - Sent block report with 0 blocks.
+2025-11-04 12:29:39,235 - hdfs_clone.datanode.dn1 - INFO - HeartbeatSender-dn1 - Heartbeat sender thread started.
+2025-11-04 12:29:39,235 - hdfs_clone.datanode.dn1 - INFO - MainThread - DataNode 'dn1' started successfully.
+2025-11-04 12:29:39,236 - hdfs_clone.datanode.dn2 - INFO - MainThread - Starting DataNode 'dn2'...
+2025-11-04 12:29:39,237 - hdfs_clone.block_manager - INFO - MainThread - Registering DataNode: 'dn2'
+2025-11-04 12:29:39,237 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block report generated with 0 blocks.
+2025-11-04 12:29:39,237 - hdfs_clone.block_manager - INFO - MainThread - Processing block report from 'dn2' with 0 blocks.
+2025-11-04 12:29:39,238 - hdfs_clone.datanode.dn2 - INFO - MainThread - Sent block report with 0 blocks.
+2025-11-04 12:29:39,239 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread started.
+2025-11-04 12:29:39,239 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' started successfully.
+2025-11-04 12:29:39,240 - hdfs_clone.datanode.dn3 - INFO - MainThread - Starting DataNode 'dn3'...
+2025-11-04 12:29:39,240 - hdfs_clone.block_manager - INFO - MainThread - Registering DataNode: 'dn3'
+2025-11-04 12:29:39,240 - hdfs_clone.datanode.dn3.storage - INFO - MainThread - Block report generated with 0 blocks.
+2025-11-04 12:29:39,241 - hdfs_clone.block_manager - INFO - MainThread - Processing block report from 'dn3' with 0 blocks.
+2025-11-04 12:29:39,241 - hdfs_clone.datanode.dn3 - INFO - MainThread - Sent block report with 0 blocks.
+2025-11-04 12:29:39,245 - hdfs_clone.datanode.dn3 - INFO - HeartbeatSender-dn3 - Heartbeat sender thread started.
+2025-11-04 12:29:39,246 - hdfs_clone.datanode.dn3 - INFO - MainThread - DataNode 'dn3' started successfully.
+2025-11-04 12:29:39,246 - hdfs_clone.secondary_namenode - INFO - MainThread - Starting Secondary NameNode...
+2025-11-04 12:29:39,247 - hdfs_clone.secondary_namenode - INFO - SecondaryNameNodeThread - Checkpointing scheduled to run every 3600 seconds.
+2025-11-04 12:29:39,248 - hdfs_clone.secondary_namenode - INFO - SecondaryNameNodeThread - Checkpoint period started. Waiting...
+2025-11-04 12:30:09,229 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-04 12:30:09,230 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-04 12:30:33,539 - hdfs_clone - CRITICAL - MainThread - An unexpected error occurred in main: 
+Traceback (most recent call last):
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\cli\hdfs_shell.py", line 48, in run
+    if cmd in self.commands: self.commands[cmd](args)
+                             ~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\cli\hdfs_shell.py", line 128, in _do_quit
+    def _do_quit(self, args): raise EOFError
+                              ^^^^^^^^^^^^^^
+EOFError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\main.py", line 65, in main
+    shell.run()
+    ~~~~~~~~~^^
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\cli\hdfs_shell.py", line 51, in run
+    except EOFError: self._do_quit([])
+                     ~~~~~~~~~~~~~^^^^
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\cli\hdfs_shell.py", line 128, in _do_quit
+    def _do_quit(self, args): raise EOFError
+                              ^^^^^^^^^^^^^^
+EOFError
+2025-11-04 12:30:33,545 - hdfs_clone - INFO - MainThread - --- Stopping HDFS Clone Cluster ---
+2025-11-04 12:30:33,546 - hdfs_clone.secondary_namenode - INFO - MainThread - Stopping Secondary NameNode...
+2025-11-04 12:30:33,547 - hdfs_clone.secondary_namenode - INFO - MainThread - Secondary NameNode stopped.
+2025-11-04 12:30:33,548 - hdfs_clone.datanode.dn1 - INFO - MainThread - Stopping DataNode 'dn1'...
+2025-11-04 12:30:33,549 - hdfs_clone.datanode.dn1 - INFO - HeartbeatSender-dn1 - Heartbeat sender thread stopped.
+2025-11-04 12:30:33,550 - hdfs_clone.datanode.dn1 - INFO - MainThread - DataNode 'dn1' stopped.
+2025-11-04 12:30:33,550 - hdfs_clone.datanode.dn2 - INFO - MainThread - Stopping DataNode 'dn2'...
+2025-11-04 12:30:33,551 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread stopped.
+2025-11-04 12:30:33,552 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' stopped.
+2025-11-04 12:30:33,553 - hdfs_clone.datanode.dn3 - INFO - MainThread - Stopping DataNode 'dn3'...
+2025-11-04 12:30:33,553 - hdfs_clone.datanode.dn3 - INFO - HeartbeatSender-dn3 - Heartbeat sender thread stopped.
+2025-11-04 12:30:33,555 - hdfs_clone.datanode.dn3 - INFO - MainThread - DataNode 'dn3' stopped.
+2025-11-04 12:30:33,555 - hdfs_clone.namenode - INFO - MainThread - Stopping NameNode...
+2025-11-04 12:30:33,556 - hdfs_clone.dashboard - INFO - MainThread - Stopping dashboard...
+2025-11-04 12:30:35,604 - hdfs_clone.replication_manager - INFO - MainThread - Stopping Replication Manager...
+2025-11-04 12:30:35,605 - hdfs_clone.replication_manager - INFO - MainThread - Replication Manager stopped.
+2025-11-04 12:30:35,605 - hdfs_clone.namenode - INFO - MainThread - NameNode stopped.
+2025-11-04 12:30:35,605 - hdfs_clone - INFO - MainThread - --- HDFS Clone Cluster has been shut down. ---
+2025-11-04 12:31:49,793 - hdfs_clone.fsimage - INFO - MainThread - FsImageManager initialized. FsImage path: './data/namenode\fsimage.json'
+2025-11-04 12:31:49,793 - hdfs_clone.editlog - INFO - MainThread - EditLogManager initialized. EditLog path: './data/namenode\edits.json'. Last txid: 0
+2025-11-04 12:31:49,793 - hdfs_clone.block_manager - INFO - MainThread - BlockManager initialized.
+2025-11-04 12:31:49,793 - hdfs_clone.block_manager - INFO - MainThread - Loading topology from 'config/topology.json'
+2025-11-04 12:31:49,793 - hdfs_clone.block_manager - INFO - MainThread - Topology loaded: 2 racks found.
+2025-11-04 12:31:49,795 - hdfs_clone.namenode - INFO - MainThread - NameNode components initialized.
+2025-11-04 12:31:49,795 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn1'
+2025-11-04 12:31:49,795 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn2'
+2025-11-04 12:31:49,795 - hdfs_clone.datanode.dn3.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn3'
+2025-11-04 12:31:49,795 - hdfs_clone.client - INFO - MainThread - HDFSClient initialized.
+2025-11-04 12:31:49,795 - hdfs_clone.namenode - INFO - MainThread - Starting NameNode...
+2025-11-04 12:31:49,795 - hdfs_clone.namenode - WARNING - MainThread - ==================================================
+2025-11-04 12:31:49,795 - hdfs_clone.namenode - WARNING - MainThread - NameNode is starting in SAFE MODE. Writes disabled.
+2025-11-04 12:31:49,795 - hdfs_clone.namenode - WARNING - MainThread - ==================================================
+2025-11-04 12:31:49,795 - hdfs_clone.namespace - INFO - MainThread - Loading namespace from FsImage...
+2025-11-04 12:31:49,795 - hdfs_clone.fsimage - WARNING - MainThread - FsImage file not found. Creating a new initial namespace.
+2025-11-04 12:31:49,795 - hdfs_clone.namespace - INFO - MainThread - Replaying transactions from EditLog...
+2025-11-04 12:31:49,795 - hdfs_clone.editlog - INFO - MainThread - No EditLog found to load. Returning empty transaction list.
+2025-11-04 12:31:49,796 - hdfs_clone.namespace - INFO - MainThread - Namespace loaded and 0 transactions replayed.
+2025-11-04 12:31:49,796 - hdfs_clone.namespace - INFO - MainThread - Building block-to-path map from loaded namespace...
+2025-11-04 12:31:49,796 - hdfs_clone.namespace - INFO - MainThread - Block-to-path map built with 0 entries.
+2025-11-04 12:31:49,796 - hdfs_clone.namespace - INFO - MainThread - Calculating initial quota usage...
+2025-11-04 12:31:49,796 - hdfs_clone.namespace - INFO - MainThread - Initial quota usage calculated.
+2025-11-04 12:31:49,796 - hdfs_clone.replication_manager - INFO - MainThread - Starting Replication Manager...
+2025-11-04 12:31:49,796 - hdfs_clone.dashboard - INFO - MainThread - Starting dashboard thread...
+2025-11-04 12:31:49,797 - hdfs_clone.dashboard - INFO - DashboardThread - Starting Flask server on http://localhost:5001
+2025-11-04 12:31:49,797 - hdfs_clone.dashboard - INFO - MainThread - ============================================================
+2025-11-04 12:31:49,797 - hdfs_clone.dashboard - INFO - MainThread - DASHBOARD IS LIVE!
+2025-11-04 12:31:49,797 - hdfs_clone.dashboard - INFO - MainThread -   * Local URL:  http://localhost:5001
+2025-11-04 12:31:49,797 - hdfs_clone.dashboard - INFO - MainThread - ============================================================
+2025-11-04 12:31:49,797 - hdfs_clone.namenode - INFO - MainThread - NameNode started successfully.
+2025-11-04 12:31:49,797 - hdfs_clone.datanode.dn1 - INFO - MainThread - Starting DataNode 'dn1'...
+2025-11-04 12:31:49,797 - hdfs_clone.block_manager - INFO - MainThread - Registering DataNode: 'dn1'
+2025-11-04 12:31:49,797 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block report generated with 0 blocks.
+2025-11-04 12:31:49,798 - hdfs_clone.block_manager - INFO - MainThread - Processing block report from 'dn1' with 0 blocks.
+2025-11-04 12:31:49,798 - hdfs_clone.namenode - INFO - MainThread - ==================================================
+2025-11-04 12:31:49,798 - hdfs_clone.namenode - INFO - MainThread - NameNode LEAVING SAFE MODE. Writes enabled.
+2025-11-04 12:31:49,798 - hdfs_clone.namenode - INFO - MainThread - ==================================================
+2025-11-04 12:31:49,798 - hdfs_clone.datanode.dn1 - INFO - MainThread - Sent block report with 0 blocks.
+2025-11-04 12:31:49,798 - hdfs_clone.datanode.dn1 - INFO - HeartbeatSender-dn1 - Heartbeat sender thread started.
+2025-11-04 12:31:49,798 - hdfs_clone.datanode.dn1 - INFO - MainThread - DataNode 'dn1' started successfully.
+2025-11-04 12:31:49,798 - hdfs_clone.datanode.dn2 - INFO - MainThread - Starting DataNode 'dn2'...
+2025-11-04 12:31:49,798 - hdfs_clone.block_manager - INFO - MainThread - Registering DataNode: 'dn2'
+2025-11-04 12:31:49,798 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block report generated with 0 blocks.
+2025-11-04 12:31:49,798 - hdfs_clone.block_manager - INFO - MainThread - Processing block report from 'dn2' with 0 blocks.
+2025-11-04 12:31:49,798 - hdfs_clone.datanode.dn2 - INFO - MainThread - Sent block report with 0 blocks.
+2025-11-04 12:31:49,798 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread started.
+2025-11-04 12:31:49,798 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' started successfully.
+2025-11-04 12:31:49,798 - hdfs_clone.datanode.dn3 - INFO - MainThread - Starting DataNode 'dn3'...
+2025-11-04 12:31:49,798 - hdfs_clone.block_manager - INFO - MainThread - Registering DataNode: 'dn3'
+2025-11-04 12:31:49,798 - hdfs_clone.datanode.dn3.storage - INFO - MainThread - Block report generated with 0 blocks.
+2025-11-04 12:31:49,798 - hdfs_clone.block_manager - INFO - MainThread - Processing block report from 'dn3' with 0 blocks.
+2025-11-04 12:31:49,799 - hdfs_clone.datanode.dn3 - INFO - MainThread - Sent block report with 0 blocks.
+2025-11-04 12:31:49,799 - hdfs_clone.datanode.dn3 - INFO - HeartbeatSender-dn3 - Heartbeat sender thread started.
+2025-11-04 12:31:49,799 - hdfs_clone.datanode.dn3 - INFO - MainThread - DataNode 'dn3' started successfully.
+2025-11-04 12:31:49,799 - hdfs_clone.secondary_namenode - INFO - MainThread - Starting Secondary NameNode...
+2025-11-04 12:31:49,799 - hdfs_clone.secondary_namenode - INFO - SecondaryNameNodeThread - Checkpointing scheduled to run every 3600 seconds.
+2025-11-04 12:31:49,799 - hdfs_clone.secondary_namenode - INFO - SecondaryNameNodeThread - Checkpoint period started. Waiting...
+2025-11-04 12:32:13,163 - hdfs_clone - CRITICAL - MainThread - An unexpected error occurred in main: 
+Traceback (most recent call last):
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\cli\hdfs_shell.py", line 48, in run
+    if cmd in self.commands: self.commands[cmd](args)
+                             ~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\cli\hdfs_shell.py", line 128, in _do_quit
+    def _do_quit(self, args): raise EOFError
+                              ^^^^^^^^^^^^^^
+EOFError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\main.py", line 65, in main
+    shell.run()
+    ~~~~~~~~~^^
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\cli\hdfs_shell.py", line 51, in run
+    except EOFError: self._do_quit([])
+                     ~~~~~~~~~~~~~^^^^
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\cli\hdfs_shell.py", line 128, in _do_quit
+    def _do_quit(self, args): raise EOFError
+                              ^^^^^^^^^^^^^^
+EOFError
+2025-11-04 12:32:13,168 - hdfs_clone - INFO - MainThread - --- Stopping HDFS Clone Cluster ---
+2025-11-04 12:32:13,168 - hdfs_clone.secondary_namenode - INFO - MainThread - Stopping Secondary NameNode...
+2025-11-04 12:32:13,169 - hdfs_clone.secondary_namenode - INFO - MainThread - Secondary NameNode stopped.
+2025-11-04 12:32:13,169 - hdfs_clone.datanode.dn1 - INFO - MainThread - Stopping DataNode 'dn1'...
+2025-11-04 12:32:13,169 - hdfs_clone.datanode.dn1 - INFO - HeartbeatSender-dn1 - Heartbeat sender thread stopped.
+2025-11-04 12:32:13,170 - hdfs_clone.datanode.dn1 - INFO - MainThread - DataNode 'dn1' stopped.
+2025-11-04 12:32:13,170 - hdfs_clone.datanode.dn2 - INFO - MainThread - Stopping DataNode 'dn2'...
+2025-11-04 12:32:13,171 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread stopped.
+2025-11-04 12:32:13,171 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' stopped.
+2025-11-04 12:32:13,171 - hdfs_clone.datanode.dn3 - INFO - MainThread - Stopping DataNode 'dn3'...
+2025-11-04 12:32:13,172 - hdfs_clone.datanode.dn3 - INFO - HeartbeatSender-dn3 - Heartbeat sender thread stopped.
+2025-11-04 12:32:13,172 - hdfs_clone.datanode.dn3 - INFO - MainThread - DataNode 'dn3' stopped.
+2025-11-04 12:32:13,173 - hdfs_clone.namenode - INFO - MainThread - Stopping NameNode...
+2025-11-04 12:32:13,173 - hdfs_clone.dashboard - INFO - MainThread - Stopping dashboard...
+2025-11-04 12:32:15,229 - hdfs_clone.replication_manager - INFO - MainThread - Stopping Replication Manager...
+2025-11-04 12:32:15,230 - hdfs_clone.replication_manager - INFO - MainThread - Replication Manager stopped.
+2025-11-04 12:32:15,230 - hdfs_clone.namenode - INFO - MainThread - NameNode stopped.
+2025-11-04 12:32:15,230 - hdfs_clone - INFO - MainThread - --- HDFS Clone Cluster has been shut down. ---
+2025-11-04 12:34:09,871 - hdfs_clone.fsimage - INFO - MainThread - FsImageManager initialized. FsImage path: './data/namenode\fsimage.json'
+2025-11-04 12:34:09,872 - hdfs_clone.editlog - INFO - MainThread - EditLogManager initialized. EditLog path: './data/namenode\edits.json'. Last txid: 0
+2025-11-04 12:34:09,872 - hdfs_clone.block_manager - INFO - MainThread - BlockManager initialized.
+2025-11-04 12:34:09,872 - hdfs_clone.block_manager - INFO - MainThread - Loading topology from 'config/topology.json'
+2025-11-04 12:34:09,872 - hdfs_clone.block_manager - INFO - MainThread - Topology loaded: 2 racks found.
+2025-11-04 12:34:09,873 - hdfs_clone.namenode - INFO - MainThread - NameNode components initialized.
+2025-11-04 12:34:09,873 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn1'
+2025-11-04 12:34:09,873 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn2'
+2025-11-04 12:34:09,873 - hdfs_clone.datanode.dn3.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn3'
+2025-11-04 12:34:09,874 - hdfs_clone.client - INFO - MainThread - HDFSClient initialized.
+2025-11-04 12:34:09,874 - hdfs_clone.namenode - INFO - MainThread - Starting NameNode...
+2025-11-04 12:34:09,874 - hdfs_clone.namenode - WARNING - MainThread - ==================================================
+2025-11-04 12:34:09,874 - hdfs_clone.namenode - WARNING - MainThread - NameNode is starting in SAFE MODE. Writes disabled.
+2025-11-04 12:34:09,874 - hdfs_clone.namenode - WARNING - MainThread - ==================================================
+2025-11-04 12:34:09,874 - hdfs_clone.namespace - INFO - MainThread - Loading namespace from FsImage...
+2025-11-04 12:34:09,874 - hdfs_clone.fsimage - WARNING - MainThread - FsImage file not found. Creating a new initial namespace.
+2025-11-04 12:34:09,874 - hdfs_clone.namespace - INFO - MainThread - Replaying transactions from EditLog...
+2025-11-04 12:34:09,874 - hdfs_clone.editlog - INFO - MainThread - No EditLog found to load. Returning empty transaction list.
+2025-11-04 12:34:09,874 - hdfs_clone.namespace - INFO - MainThread - Namespace loaded and 0 transactions replayed.
+2025-11-04 12:34:09,874 - hdfs_clone.namespace - INFO - MainThread - Building block-to-path map from loaded namespace...
+2025-11-04 12:34:09,874 - hdfs_clone.namespace - INFO - MainThread - Block-to-path map built with 0 entries.
+2025-11-04 12:34:09,874 - hdfs_clone.namespace - INFO - MainThread - Calculating initial quota usage...
+2025-11-04 12:34:09,874 - hdfs_clone.namespace - INFO - MainThread - Initial quota usage calculated.
+2025-11-04 12:34:09,875 - hdfs_clone.replication_manager - INFO - MainThread - Starting Replication Manager...
+2025-11-04 12:34:09,875 - hdfs_clone.dashboard - INFO - MainThread - Starting dashboard thread...
+2025-11-04 12:34:09,876 - hdfs_clone.dashboard - INFO - DashboardThread - Starting dashboard server on http://127.0.0.1:5001
+2025-11-04 12:34:09,876 - hdfs_clone.dashboard - INFO - MainThread - ============================================================
+2025-11-04 12:34:09,876 - hdfs_clone.dashboard - INFO - MainThread - DASHBOARD IS LIVE!
+2025-11-04 12:34:09,876 - hdfs_clone.dashboard - INFO - MainThread -   * Local URL:  http://127.0.0.1:5001
+2025-11-04 12:34:09,876 - hdfs_clone.dashboard - INFO - MainThread - ============================================================
+2025-11-04 12:34:09,876 - hdfs_clone.namenode - INFO - MainThread - NameNode started successfully.
+2025-11-04 12:34:09,876 - hdfs_clone.datanode.dn1 - INFO - MainThread - Starting DataNode 'dn1'...
+2025-11-04 12:34:09,876 - hdfs_clone.block_manager - INFO - MainThread - Registering DataNode: 'dn1'
+2025-11-04 12:34:09,877 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block report generated with 0 blocks.
+2025-11-04 12:34:09,877 - hdfs_clone.block_manager - INFO - MainThread - Processing block report from 'dn1' with 0 blocks.
+2025-11-04 12:34:09,877 - hdfs_clone.namenode - INFO - MainThread - ==================================================
+2025-11-04 12:34:09,877 - hdfs_clone.namenode - INFO - MainThread - NameNode LEAVING SAFE MODE. Writes enabled.
+2025-11-04 12:34:09,877 - hdfs_clone.namenode - INFO - MainThread - ==================================================
+2025-11-04 12:34:09,877 - hdfs_clone.datanode.dn1 - INFO - MainThread - Sent block report with 0 blocks.
+2025-11-04 12:34:09,877 - hdfs_clone.datanode.dn1 - INFO - HeartbeatSender-dn1 - Heartbeat sender thread started.
+2025-11-04 12:34:09,877 - hdfs_clone.datanode.dn1 - INFO - MainThread - DataNode 'dn1' started successfully.
+2025-11-04 12:34:09,877 - hdfs_clone.datanode.dn2 - INFO - MainThread - Starting DataNode 'dn2'...
+2025-11-04 12:34:09,877 - hdfs_clone.block_manager - INFO - MainThread - Registering DataNode: 'dn2'
+2025-11-04 12:34:09,877 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block report generated with 0 blocks.
+2025-11-04 12:34:09,877 - hdfs_clone.block_manager - INFO - MainThread - Processing block report from 'dn2' with 0 blocks.
+2025-11-04 12:34:09,877 - hdfs_clone.datanode.dn2 - INFO - MainThread - Sent block report with 0 blocks.
+2025-11-04 12:34:09,878 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread started.
+2025-11-04 12:34:09,878 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' started successfully.
+2025-11-04 12:34:09,878 - hdfs_clone.datanode.dn3 - INFO - MainThread - Starting DataNode 'dn3'...
+2025-11-04 12:34:09,878 - hdfs_clone.block_manager - INFO - MainThread - Registering DataNode: 'dn3'
+2025-11-04 12:34:09,878 - hdfs_clone.datanode.dn3.storage - INFO - MainThread - Block report generated with 0 blocks.
+2025-11-04 12:34:09,878 - hdfs_clone.block_manager - INFO - MainThread - Processing block report from 'dn3' with 0 blocks.
+2025-11-04 12:34:09,878 - hdfs_clone.datanode.dn3 - INFO - MainThread - Sent block report with 0 blocks.
+2025-11-04 12:34:09,878 - hdfs_clone.datanode.dn3 - INFO - HeartbeatSender-dn3 - Heartbeat sender thread started.
+2025-11-04 12:34:09,878 - hdfs_clone.datanode.dn3 - INFO - MainThread - DataNode 'dn3' started successfully.
+2025-11-04 12:34:09,878 - hdfs_clone.secondary_namenode - INFO - MainThread - Starting Secondary NameNode...
+2025-11-04 12:34:09,879 - hdfs_clone.secondary_namenode - INFO - SecondaryNameNodeThread - Checkpointing scheduled to run every 3600 seconds.
+2025-11-04 12:34:09,879 - hdfs_clone.secondary_namenode - INFO - SecondaryNameNodeThread - Checkpoint period started. Waiting...
+2025-11-04 12:34:38,271 - hdfs_clone - CRITICAL - MainThread - An unexpected error occurred in main: 
+Traceback (most recent call last):
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\cli\hdfs_shell.py", line 48, in run
+    if cmd in self.commands: self.commands[cmd](args)
+                             ~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\cli\hdfs_shell.py", line 128, in _do_quit
+    def _do_quit(self, args): raise EOFError
+                              ^^^^^^^^^^^^^^
+EOFError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\main.py", line 65, in main
+    shell.run()
+    ~~~~~~~~~^^
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\cli\hdfs_shell.py", line 51, in run
+    except EOFError: self._do_quit([])
+                     ~~~~~~~~~~~~~^^^^
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\cli\hdfs_shell.py", line 128, in _do_quit
+    def _do_quit(self, args): raise EOFError
+                              ^^^^^^^^^^^^^^
+EOFError
+2025-11-04 12:34:38,277 - hdfs_clone - INFO - MainThread - --- Stopping HDFS Clone Cluster ---
+2025-11-04 12:34:38,277 - hdfs_clone.secondary_namenode - INFO - MainThread - Stopping Secondary NameNode...
+2025-11-04 12:34:38,278 - hdfs_clone.secondary_namenode - INFO - MainThread - Secondary NameNode stopped.
+2025-11-04 12:34:38,278 - hdfs_clone.datanode.dn1 - INFO - MainThread - Stopping DataNode 'dn1'...
+2025-11-04 12:34:38,279 - hdfs_clone.datanode.dn1 - INFO - HeartbeatSender-dn1 - Heartbeat sender thread stopped.
+2025-11-04 12:34:38,279 - hdfs_clone.datanode.dn1 - INFO - MainThread - DataNode 'dn1' stopped.
+2025-11-04 12:34:38,280 - hdfs_clone.datanode.dn2 - INFO - MainThread - Stopping DataNode 'dn2'...
+2025-11-04 12:34:38,280 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread stopped.
+2025-11-04 12:34:38,281 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' stopped.
+2025-11-04 12:34:38,281 - hdfs_clone.datanode.dn3 - INFO - MainThread - Stopping DataNode 'dn3'...
+2025-11-04 12:34:38,281 - hdfs_clone.datanode.dn3 - INFO - HeartbeatSender-dn3 - Heartbeat sender thread stopped.
+2025-11-04 12:34:38,282 - hdfs_clone.datanode.dn3 - INFO - MainThread - DataNode 'dn3' stopped.
+2025-11-04 12:34:38,282 - hdfs_clone.namenode - INFO - MainThread - Stopping NameNode...
+2025-11-04 12:34:38,282 - hdfs_clone.dashboard - INFO - MainThread - Dashboard thread will be terminated on application exit.
+2025-11-04 12:34:38,282 - hdfs_clone.replication_manager - INFO - MainThread - Stopping Replication Manager...
+2025-11-04 12:34:38,283 - hdfs_clone.replication_manager - INFO - MainThread - Replication Manager stopped.
+2025-11-04 12:34:38,284 - hdfs_clone.namenode - INFO - MainThread - NameNode stopped.
+2025-11-04 12:34:38,284 - hdfs_clone - INFO - MainThread - --- HDFS Clone Cluster has been shut down. ---
+2025-11-11 08:53:26,108 - hdfs_clone.fsimage - INFO - MainThread - FsImageManager initialized. FsImage path: './data/namenode\fsimage.json'
+2025-11-11 08:53:26,109 - hdfs_clone.editlog - INFO - MainThread - EditLogManager initialized. EditLog path: './data/namenode\edits.json'. Last txid: 0
+2025-11-11 08:53:26,109 - hdfs_clone.block_manager - INFO - MainThread - BlockManager initialized.
+2025-11-11 08:53:26,109 - hdfs_clone.block_manager - INFO - MainThread - Loading topology from 'config/topology.json'
+2025-11-11 08:53:26,116 - hdfs_clone.block_manager - INFO - MainThread - Topology loaded: 2 racks found.
+2025-11-11 08:53:26,120 - hdfs_clone.namenode - INFO - MainThread - NameNode components initialized.
+2025-11-11 08:53:26,120 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn1'
+2025-11-11 08:53:26,121 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn2'
+2025-11-11 08:53:26,121 - hdfs_clone.datanode.dn3.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn3'
+2025-11-11 08:53:26,121 - hdfs_clone.client - INFO - MainThread - HDFSClient initialized.
+2025-11-11 08:53:26,121 - hdfs_clone.namenode - INFO - MainThread - Starting NameNode...
+2025-11-11 08:53:26,121 - hdfs_clone.namenode - WARNING - MainThread - ==================================================
+2025-11-11 08:53:26,121 - hdfs_clone.namenode - WARNING - MainThread - NameNode is starting in SAFE MODE. Writes disabled.
+2025-11-11 08:53:26,121 - hdfs_clone.namenode - WARNING - MainThread - ==================================================
+2025-11-11 08:53:26,121 - hdfs_clone.namespace - INFO - MainThread - Loading namespace from FsImage...
+2025-11-11 08:53:26,122 - hdfs_clone.fsimage - WARNING - MainThread - FsImage file not found. Creating a new initial namespace.
+2025-11-11 08:53:26,122 - hdfs_clone.namespace - INFO - MainThread - Replaying transactions from EditLog...
+2025-11-11 08:53:26,122 - hdfs_clone.editlog - INFO - MainThread - No EditLog found to load. Returning empty transaction list.
+2025-11-11 08:53:26,122 - hdfs_clone.namespace - INFO - MainThread - Namespace loaded and 0 transactions replayed.
+2025-11-11 08:53:26,122 - hdfs_clone.namespace - INFO - MainThread - Building block-to-path map from loaded namespace...
+2025-11-11 08:53:26,122 - hdfs_clone.namespace - INFO - MainThread - Block-to-path map built with 0 entries.
+2025-11-11 08:53:26,122 - hdfs_clone.namespace - INFO - MainThread - Calculating initial quota usage...
+2025-11-11 08:53:26,122 - hdfs_clone.namespace - INFO - MainThread - Initial quota usage calculated.
+2025-11-11 08:53:26,122 - hdfs_clone.replication_manager - INFO - MainThread - Starting Replication Manager...
+2025-11-11 08:53:26,123 - hdfs_clone.dashboard - INFO - MainThread - Starting dashboard thread...
+2025-11-11 08:53:26,123 - hdfs_clone.dashboard - INFO - DashboardThread - Starting dashboard server on http://127.0.0.1:5001
+2025-11-11 08:53:26,123 - hdfs_clone.dashboard - INFO - MainThread - ============================================================
+2025-11-11 08:53:26,123 - hdfs_clone.dashboard - INFO - MainThread - DASHBOARD IS LIVE!
+2025-11-11 08:53:26,124 - hdfs_clone.dashboard - INFO - MainThread -   * Local URL:  http://127.0.0.1:5001
+2025-11-11 08:53:26,124 - hdfs_clone.dashboard - INFO - MainThread - ============================================================
+2025-11-11 08:53:26,124 - hdfs_clone.namenode - INFO - MainThread - NameNode started successfully.
+2025-11-11 08:53:26,124 - hdfs_clone.datanode.dn1 - INFO - MainThread - Starting DataNode 'dn1'...
+2025-11-11 08:53:26,124 - hdfs_clone.block_manager - INFO - MainThread - Registering DataNode: 'dn1'
+2025-11-11 08:53:26,124 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block report generated with 0 blocks.
+2025-11-11 08:53:26,124 - hdfs_clone.block_manager - INFO - MainThread - Processing block report from 'dn1' with 0 blocks.
+2025-11-11 08:53:26,124 - hdfs_clone.namenode - INFO - MainThread - ==================================================
+2025-11-11 08:53:26,124 - hdfs_clone.namenode - INFO - MainThread - NameNode LEAVING SAFE MODE. Writes enabled.
+2025-11-11 08:53:26,125 - hdfs_clone.namenode - INFO - MainThread - ==================================================
+2025-11-11 08:53:26,125 - hdfs_clone.datanode.dn1 - INFO - MainThread - Sent block report with 0 blocks.
+2025-11-11 08:53:26,125 - hdfs_clone.datanode.dn1 - INFO - HeartbeatSender-dn1 - Heartbeat sender thread started.
+2025-11-11 08:53:26,125 - hdfs_clone.datanode.dn1 - INFO - MainThread - DataNode 'dn1' started successfully.
+2025-11-11 08:53:26,125 - hdfs_clone.datanode.dn2 - INFO - MainThread - Starting DataNode 'dn2'...
+2025-11-11 08:53:26,125 - hdfs_clone.block_manager - INFO - MainThread - Registering DataNode: 'dn2'
+2025-11-11 08:53:26,125 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block report generated with 0 blocks.
+2025-11-11 08:53:26,125 - hdfs_clone.block_manager - INFO - MainThread - Processing block report from 'dn2' with 0 blocks.
+2025-11-11 08:53:26,125 - hdfs_clone.datanode.dn2 - INFO - MainThread - Sent block report with 0 blocks.
+2025-11-11 08:53:26,126 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread started.
+2025-11-11 08:53:26,126 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' started successfully.
+2025-11-11 08:53:26,126 - hdfs_clone.datanode.dn3 - INFO - MainThread - Starting DataNode 'dn3'...
+2025-11-11 08:53:26,126 - hdfs_clone.block_manager - INFO - MainThread - Registering DataNode: 'dn3'
+2025-11-11 08:53:26,126 - hdfs_clone.datanode.dn3.storage - INFO - MainThread - Block report generated with 0 blocks.
+2025-11-11 08:53:26,126 - hdfs_clone.block_manager - INFO - MainThread - Processing block report from 'dn3' with 0 blocks.
+2025-11-11 08:53:26,126 - hdfs_clone.datanode.dn3 - INFO - MainThread - Sent block report with 0 blocks.
+2025-11-11 08:53:26,126 - hdfs_clone.datanode.dn3 - INFO - HeartbeatSender-dn3 - Heartbeat sender thread started.
+2025-11-11 08:53:26,126 - hdfs_clone.datanode.dn3 - INFO - MainThread - DataNode 'dn3' started successfully.
+2025-11-11 08:53:26,126 - hdfs_clone.secondary_namenode - INFO - MainThread - Starting Secondary NameNode...
+2025-11-11 08:53:26,127 - hdfs_clone.secondary_namenode - INFO - SecondaryNameNodeThread - Checkpointing scheduled to run every 3600 seconds.
+2025-11-11 08:53:26,127 - hdfs_clone.secondary_namenode - INFO - SecondaryNameNodeThread - Checkpoint period started. Waiting...
+2025-11-11 08:53:56,131 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 08:53:56,132 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 08:54:26,140 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 08:54:26,142 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 08:54:38,877 - hdfs_clone.editlog - INFO - MainThread - Successfully logged transaction ID 1 (MKDIR)
+2025-11-11 08:54:51,581 - hdfs_clone.client - INFO - MainThread - Uploading local file 'my_large_local_file.txt' to HDFS '/project_data/report.txt'
+2025-11-11 08:54:56,145 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 08:54:56,146 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 08:55:26,160 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 08:55:26,160 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 08:55:56,172 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 08:55:56,172 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 08:56:26,176 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 08:56:26,177 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 08:56:56,186 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 08:56:56,186 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 08:57:26,190 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 08:57:26,190 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 08:57:56,203 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 08:57:56,203 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 08:58:26,212 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 08:58:26,212 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 08:58:56,221 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 08:58:56,221 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 08:59:26,230 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 08:59:26,231 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 08:59:56,245 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 08:59:56,245 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 09:00:26,251 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 09:00:26,251 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 09:00:40,467 - hdfs_clone.client - INFO - MainThread - Uploading local file 'my_large_local_file.txt' to HDFS '/project_data/report.txt'
+2025-11-11 09:00:40,511 - hdfs_clone.editlog - INFO - MainThread - Successfully logged transaction ID 2 (CREATE)
+2025-11-11 09:00:40,641 - hdfs_clone.editlog - INFO - MainThread - Successfully logged transaction ID 3 (ADD_BLOCK)
+2025-11-11 09:00:40,641 - hdfs_clone.block_manager - INFO - MainThread - Added block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' to location 'dn2'
+2025-11-11 09:00:40,641 - hdfs_clone.block_manager - INFO - MainThread - Added block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' to location 'dn3'
+2025-11-11 09:00:40,641 - hdfs_clone.block_manager - INFO - MainThread - Added block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' to location 'dn1'
+2025-11-11 09:00:40,641 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Writing block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' (37737595 bytes) to './data/datanodes\dn2\blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51'
+2025-11-11 09:00:40,694 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Successfully wrote block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' with checksum 3843169052.
+2025-11-11 09:00:40,694 - hdfs_clone.datanode.dn3.storage - INFO - MainThread - Writing block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' (37737595 bytes) to './data/datanodes\dn3\blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51'
+2025-11-11 09:00:40,750 - hdfs_clone.datanode.dn3.storage - INFO - MainThread - Successfully wrote block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' with checksum 3843169052.
+2025-11-11 09:00:40,750 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Writing block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' (37737595 bytes) to './data/datanodes\dn1\blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51'
+2025-11-11 09:00:40,795 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Successfully wrote block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' with checksum 3843169052.
+2025-11-11 09:00:40,798 - hdfs_clone.editlog - INFO - MainThread - Successfully logged transaction ID 4 (COMPLETE_FILE)
+2025-11-11 09:00:40,798 - hdfs_clone.client - INFO - MainThread - Upload complete.
+2025-11-11 09:00:56,258 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 09:00:56,258 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 09:01:26,264 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 09:01:26,264 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 09:01:56,267 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 09:01:56,268 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 09:02:26,275 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 09:02:26,275 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 09:02:56,285 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 09:02:56,285 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 09:03:26,290 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 09:03:26,290 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 09:03:56,303 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 09:03:56,303 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 09:04:26,313 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 09:04:26,314 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 09:04:56,319 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 09:04:56,320 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 09:05:26,321 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 09:05:26,321 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 09:05:56,333 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 09:05:56,334 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 09:06:08,338 - hdfs_clone.datanode.dn3.storage - INFO - MainThread - Reading block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from './data/datanodes\dn3\blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51'
+2025-11-11 09:06:08,440 - hdfs_clone.datanode.dn3.storage - INFO - MainThread - Successfully read and verified block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51'.
+2025-11-11 09:06:08,440 - hdfs_clone.input_stream - INFO - MainThread - Read block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from DataNode 'dn3'
+2025-11-11 09:06:26,349 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 09:06:26,349 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 09:06:56,358 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 09:06:56,358 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 09:07:06,199 - hdfs_clone.client - INFO - MainThread - Downloading HDFS file '/project_data/report.txt' to local 'final_report_from_hdfs.txt'
+2025-11-11 09:07:06,200 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Reading block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from './data/datanodes\dn2\blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51'
+2025-11-11 09:07:06,326 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Successfully read and verified block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51'.
+2025-11-11 09:07:06,327 - hdfs_clone.input_stream - INFO - MainThread - Read block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from DataNode 'dn2'
+2025-11-11 09:07:06,398 - hdfs_clone.client - INFO - MainThread - Download complete.
+2025-11-11 09:07:26,360 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 09:07:26,360 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 09:07:56,361 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 09:07:56,361 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 09:08:26,371 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 09:08:26,371 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 09:08:56,377 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 09:08:56,377 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 09:09:12,041 - hdfs_clone - CRITICAL - MainThread - An unexpected error occurred in main: 
+Traceback (most recent call last):
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\cli\hdfs_shell.py", line 48, in run
+    if cmd in self.commands: self.commands[cmd](args)
+                             ~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\cli\hdfs_shell.py", line 128, in _do_quit
+    def _do_quit(self, args): raise EOFError
+                              ^^^^^^^^^^^^^^
+EOFError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\main.py", line 65, in main
+    shell.run()
+    ~~~~~~~~~^^
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\cli\hdfs_shell.py", line 51, in run
+    except EOFError: self._do_quit([])
+                     ~~~~~~~~~~~~~^^^^
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\cli\hdfs_shell.py", line 128, in _do_quit
+    def _do_quit(self, args): raise EOFError
+                              ^^^^^^^^^^^^^^
+EOFError
+2025-11-11 09:09:12,092 - hdfs_clone - INFO - MainThread - --- Stopping HDFS Clone Cluster ---
+2025-11-11 09:09:12,092 - hdfs_clone.secondary_namenode - INFO - MainThread - Stopping Secondary NameNode...
+2025-11-11 09:09:12,092 - hdfs_clone.secondary_namenode - INFO - MainThread - Secondary NameNode stopped.
+2025-11-11 09:09:12,092 - hdfs_clone.datanode.dn1 - INFO - MainThread - Stopping DataNode 'dn1'...
+2025-11-11 09:09:12,093 - hdfs_clone.datanode.dn1 - INFO - HeartbeatSender-dn1 - Heartbeat sender thread stopped.
+2025-11-11 09:09:12,093 - hdfs_clone.datanode.dn1 - INFO - MainThread - DataNode 'dn1' stopped.
+2025-11-11 09:09:12,093 - hdfs_clone.datanode.dn2 - INFO - MainThread - Stopping DataNode 'dn2'...
+2025-11-11 09:09:12,094 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread stopped.
+2025-11-11 09:09:12,094 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' stopped.
+2025-11-11 09:09:12,094 - hdfs_clone.datanode.dn3 - INFO - MainThread - Stopping DataNode 'dn3'...
+2025-11-11 09:09:12,094 - hdfs_clone.datanode.dn3 - INFO - HeartbeatSender-dn3 - Heartbeat sender thread stopped.
+2025-11-11 09:09:12,094 - hdfs_clone.datanode.dn3 - INFO - MainThread - DataNode 'dn3' stopped.
+2025-11-11 09:09:12,095 - hdfs_clone.namenode - INFO - MainThread - Stopping NameNode...
+2025-11-11 09:09:12,095 - hdfs_clone.dashboard - INFO - MainThread - Dashboard thread will be terminated on application exit.
+2025-11-11 09:09:12,095 - hdfs_clone.replication_manager - INFO - MainThread - Stopping Replication Manager...
+2025-11-11 09:09:12,095 - hdfs_clone.replication_manager - INFO - MainThread - Replication Manager stopped.
+2025-11-11 09:09:12,095 - hdfs_clone.namenode - INFO - MainThread - NameNode stopped.
+2025-11-11 09:09:12,095 - hdfs_clone - INFO - MainThread - --- HDFS Clone Cluster has been shut down. ---
+2025-11-11 09:10:15,648 - hdfs_clone.fsimage - INFO - MainThread - FsImageManager initialized. FsImage path: './data/namenode\fsimage.json'
+2025-11-11 09:10:15,657 - hdfs_clone.editlog - INFO - MainThread - EditLogManager initialized. EditLog path: './data/namenode\edits.json'. Last txid: 4
+2025-11-11 09:10:15,658 - hdfs_clone.block_manager - INFO - MainThread - BlockManager initialized.
+2025-11-11 09:10:15,658 - hdfs_clone.block_manager - INFO - MainThread - Loading topology from 'config/topology.json'
+2025-11-11 09:10:15,658 - hdfs_clone.block_manager - INFO - MainThread - Topology loaded: 2 racks found.
+2025-11-11 09:10:15,660 - hdfs_clone.namenode - INFO - MainThread - NameNode components initialized.
+2025-11-11 09:10:15,660 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn1'
+2025-11-11 09:10:15,660 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn2'
+2025-11-11 09:10:15,660 - hdfs_clone.client - INFO - MainThread - HDFSClient initialized.
+2025-11-11 09:10:15,661 - hdfs_clone.namenode - INFO - MainThread - Starting NameNode...
+2025-11-11 09:10:15,661 - hdfs_clone.namenode - WARNING - MainThread - ==================================================
+2025-11-11 09:10:15,661 - hdfs_clone.namenode - WARNING - MainThread - NameNode is starting in SAFE MODE. Writes disabled.
+2025-11-11 09:10:15,661 - hdfs_clone.namenode - WARNING - MainThread - ==================================================
+2025-11-11 09:10:15,661 - hdfs_clone.namespace - INFO - MainThread - Loading namespace from FsImage...
+2025-11-11 09:10:15,661 - hdfs_clone.fsimage - WARNING - MainThread - FsImage file not found. Creating a new initial namespace.
+2025-11-11 09:10:15,661 - hdfs_clone.namespace - INFO - MainThread - Replaying transactions from EditLog...
+2025-11-11 09:10:15,661 - hdfs_clone.editlog - INFO - MainThread - Loaded 4 transactions from EditLog.
+2025-11-11 09:10:15,662 - hdfs_clone.block_manager - INFO - MainThread - Added block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' to location 'dn2'
+2025-11-11 09:10:15,662 - hdfs_clone.block_manager - INFO - MainThread - Added block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' to location 'dn3'
+2025-11-11 09:10:15,662 - hdfs_clone.block_manager - INFO - MainThread - Added block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' to location 'dn1'
+2025-11-11 09:10:15,662 - hdfs_clone.namespace - INFO - MainThread - Namespace loaded and 4 transactions replayed.
+2025-11-11 09:10:15,662 - hdfs_clone.namespace - INFO - MainThread - Building block-to-path map from loaded namespace...
+2025-11-11 09:10:15,662 - hdfs_clone.namespace - INFO - MainThread - Block-to-path map built with 1 entries.
+2025-11-11 09:10:15,662 - hdfs_clone.namespace - INFO - MainThread - Calculating initial quota usage...
+2025-11-11 09:10:15,662 - hdfs_clone.namespace - INFO - MainThread - Initial quota usage calculated.
+2025-11-11 09:10:15,662 - hdfs_clone.replication_manager - INFO - MainThread - Starting Replication Manager...
+2025-11-11 09:10:15,664 - hdfs_clone.dashboard - INFO - MainThread - Starting dashboard thread...
+2025-11-11 09:10:15,664 - hdfs_clone.dashboard - INFO - DashboardThread - Starting dashboard server on http://127.0.0.1:5001
+2025-11-11 09:10:15,664 - hdfs_clone.dashboard - INFO - MainThread - ============================================================
+2025-11-11 09:10:15,664 - hdfs_clone.dashboard - INFO - MainThread - DASHBOARD IS LIVE!
+2025-11-11 09:10:15,665 - hdfs_clone.dashboard - INFO - MainThread -   * Local URL:  http://127.0.0.1:5001
+2025-11-11 09:10:15,665 - hdfs_clone.dashboard - INFO - MainThread - ============================================================
+2025-11-11 09:10:15,665 - hdfs_clone.namenode - INFO - MainThread - NameNode started successfully.
+2025-11-11 09:10:15,665 - hdfs_clone.datanode.dn1 - INFO - MainThread - Starting DataNode 'dn1'...
+2025-11-11 09:10:15,666 - hdfs_clone.block_manager - INFO - MainThread - Registering DataNode: 'dn1'
+2025-11-11 09:10:15,666 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block report generated with 1 blocks.
+2025-11-11 09:10:15,666 - hdfs_clone.block_manager - INFO - MainThread - Processing block report from 'dn1' with 1 blocks.
+2025-11-11 09:10:15,666 - hdfs_clone.namenode - INFO - MainThread - Safe Mode: 1 of 1 blocks reported (100.00%)
+2025-11-11 09:10:15,666 - hdfs_clone.namenode - INFO - MainThread - ==================================================
+2025-11-11 09:10:15,666 - hdfs_clone.namenode - INFO - MainThread - NameNode LEAVING SAFE MODE. Writes enabled.
+2025-11-11 09:10:15,666 - hdfs_clone.namenode - INFO - MainThread - ==================================================
+2025-11-11 09:10:15,666 - hdfs_clone.datanode.dn1 - INFO - MainThread - Sent block report with 1 blocks.
+2025-11-11 09:10:15,666 - hdfs_clone.datanode.dn1 - INFO - HeartbeatSender-dn1 - Heartbeat sender thread started.
+2025-11-11 09:10:15,667 - hdfs_clone.datanode.dn1 - INFO - MainThread - DataNode 'dn1' started successfully.
+2025-11-11 09:10:15,667 - hdfs_clone.datanode.dn2 - INFO - MainThread - Starting DataNode 'dn2'...
+2025-11-11 09:10:15,667 - hdfs_clone.block_manager - INFO - MainThread - Registering DataNode: 'dn2'
+2025-11-11 09:10:15,667 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block report generated with 1 blocks.
+2025-11-11 09:10:15,667 - hdfs_clone.block_manager - INFO - MainThread - Processing block report from 'dn2' with 1 blocks.
+2025-11-11 09:10:15,667 - hdfs_clone.datanode.dn2 - INFO - MainThread - Sent block report with 1 blocks.
+2025-11-11 09:10:15,667 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread started.
+2025-11-11 09:10:15,667 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' started successfully.
+2025-11-11 09:10:15,668 - hdfs_clone.secondary_namenode - INFO - MainThread - Starting Secondary NameNode...
+2025-11-11 09:10:15,668 - hdfs_clone.secondary_namenode - INFO - SecondaryNameNodeThread - Checkpointing scheduled to run every 3600 seconds.
+2025-11-11 09:10:15,668 - hdfs_clone.secondary_namenode - INFO - SecondaryNameNodeThread - Checkpoint period started. Waiting...
+2025-11-11 09:10:38,115 - hdfs_clone.client - INFO - MainThread - Downloading HDFS file '/project_data/report.txt' to local 'final_report_from_hdfs.txt'
+2025-11-11 09:10:38,117 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Reading block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from './data/datanodes\dn1\blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51'
+2025-11-11 09:10:38,221 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Successfully read and verified block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51'.
+2025-11-11 09:10:38,221 - hdfs_clone.input_stream - INFO - MainThread - Read block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from DataNode 'dn1'
+2025-11-11 09:10:38,303 - hdfs_clone.client - INFO - MainThread - Download complete.
+2025-11-11 09:10:45,664 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 09:10:45,664 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Scheduled replication of block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from 'dn1' to 'dn1'
+2025-11-11 09:10:45,664 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. Found 1 under-replicated blocks.
+2025-11-11 09:10:45,789 - hdfs_clone.datanode.dn1 - INFO - HeartbeatSender-dn1 - Received 1 command(s) from NameNode.
+2025-11-11 09:10:45,790 - hdfs_clone.datanode.dn1 - INFO - Thread-1 (execute_command) - Executing command: replicate
+2025-11-11 09:10:45,790 - hdfs_clone.datanode.dn1 - INFO - Thread-1 (execute_command) - Starting replication of block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from source 'dn1'
+2025-11-11 09:10:45,790 - hdfs_clone.datanode.dn1.storage - INFO - Thread-1 (execute_command) - Reading block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from './data/datanodes\dn1\blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51'
+2025-11-11 09:10:45,835 - hdfs_clone.datanode.dn1.storage - INFO - Thread-1 (execute_command) - Successfully read and verified block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51'.
+2025-11-11 09:10:45,835 - hdfs_clone.datanode.dn1.storage - INFO - Thread-1 (execute_command) - Writing block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' (37737595 bytes) to './data/datanodes\dn1\blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51'
+2025-11-11 09:10:45,888 - hdfs_clone.datanode.dn1.storage - INFO - Thread-1 (execute_command) - Successfully wrote block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' with checksum 3843169052.
+2025-11-11 09:10:45,888 - hdfs_clone.block_manager - INFO - Thread-1 (execute_command) - Added block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' to location 'dn1'
+2025-11-11 09:10:45,888 - hdfs_clone.datanode.dn1 - INFO - Thread-1 (execute_command) - Successfully replicated block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51'
+2025-11-11 09:10:58,752 - hdfs_clone - CRITICAL - MainThread - An unexpected error occurred in main: 
+Traceback (most recent call last):
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\cli\hdfs_shell.py", line 48, in run
+    if cmd in self.commands: self.commands[cmd](args)
+                             ~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\cli\hdfs_shell.py", line 128, in _do_quit
+    def _do_quit(self, args): raise EOFError
+                              ^^^^^^^^^^^^^^
+EOFError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\main.py", line 65, in main
+    shell.run()
+    ~~~~~~~~~^^
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\cli\hdfs_shell.py", line 51, in run
+    except EOFError: self._do_quit([])
+                     ~~~~~~~~~~~~~^^^^
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\cli\hdfs_shell.py", line 128, in _do_quit
+    def _do_quit(self, args): raise EOFError
+                              ^^^^^^^^^^^^^^
+EOFError
+2025-11-11 09:10:58,757 - hdfs_clone - INFO - MainThread - --- Stopping HDFS Clone Cluster ---
+2025-11-11 09:10:58,757 - hdfs_clone.secondary_namenode - INFO - MainThread - Stopping Secondary NameNode...
+2025-11-11 09:10:58,758 - hdfs_clone.secondary_namenode - INFO - MainThread - Secondary NameNode stopped.
+2025-11-11 09:10:58,758 - hdfs_clone.datanode.dn1 - INFO - MainThread - Stopping DataNode 'dn1'...
+2025-11-11 09:10:58,759 - hdfs_clone.datanode.dn1 - INFO - HeartbeatSender-dn1 - Heartbeat sender thread stopped.
+2025-11-11 09:10:58,759 - hdfs_clone.datanode.dn1 - INFO - MainThread - DataNode 'dn1' stopped.
+2025-11-11 09:10:58,760 - hdfs_clone.datanode.dn2 - INFO - MainThread - Stopping DataNode 'dn2'...
+2025-11-11 09:10:58,760 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread stopped.
+2025-11-11 09:10:58,761 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' stopped.
+2025-11-11 09:10:58,761 - hdfs_clone.namenode - INFO - MainThread - Stopping NameNode...
+2025-11-11 09:10:58,761 - hdfs_clone.dashboard - INFO - MainThread - Dashboard thread will be terminated on application exit.
+2025-11-11 09:10:58,761 - hdfs_clone.replication_manager - INFO - MainThread - Stopping Replication Manager...
+2025-11-11 09:10:58,762 - hdfs_clone.replication_manager - INFO - MainThread - Replication Manager stopped.
+2025-11-11 09:10:58,762 - hdfs_clone.namenode - INFO - MainThread - NameNode stopped.
+2025-11-11 09:10:58,762 - hdfs_clone - INFO - MainThread - --- HDFS Clone Cluster has been shut down. ---
+2025-11-11 09:11:11,700 - hdfs_clone.fsimage - INFO - MainThread - FsImageManager initialized. FsImage path: './data/namenode\fsimage.json'
+2025-11-11 09:11:11,701 - hdfs_clone.editlog - INFO - MainThread - EditLogManager initialized. EditLog path: './data/namenode\edits.json'. Last txid: 4
+2025-11-11 09:11:11,701 - hdfs_clone.block_manager - INFO - MainThread - BlockManager initialized.
+2025-11-11 09:11:11,701 - hdfs_clone.block_manager - INFO - MainThread - Loading topology from 'config/topology.json'
+2025-11-11 09:11:11,701 - hdfs_clone.block_manager - INFO - MainThread - Topology loaded: 2 racks found.
+2025-11-11 09:11:11,703 - hdfs_clone.namenode - INFO - MainThread - NameNode components initialized.
+2025-11-11 09:11:11,703 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn1'
+2025-11-11 09:11:11,703 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn2'
+2025-11-11 09:11:11,704 - hdfs_clone.client - INFO - MainThread - HDFSClient initialized.
+2025-11-11 09:11:11,704 - hdfs_clone.namenode - INFO - MainThread - Starting NameNode...
+2025-11-11 09:11:11,704 - hdfs_clone.namenode - WARNING - MainThread - ==================================================
+2025-11-11 09:11:11,704 - hdfs_clone.namenode - WARNING - MainThread - NameNode is starting in SAFE MODE. Writes disabled.
+2025-11-11 09:11:11,704 - hdfs_clone.namenode - WARNING - MainThread - ==================================================
+2025-11-11 09:11:11,704 - hdfs_clone.namespace - INFO - MainThread - Loading namespace from FsImage...
+2025-11-11 09:11:11,704 - hdfs_clone.fsimage - WARNING - MainThread - FsImage file not found. Creating a new initial namespace.
+2025-11-11 09:11:11,704 - hdfs_clone.namespace - INFO - MainThread - Replaying transactions from EditLog...
+2025-11-11 09:11:11,705 - hdfs_clone.editlog - INFO - MainThread - Loaded 4 transactions from EditLog.
+2025-11-11 09:11:11,705 - hdfs_clone.block_manager - INFO - MainThread - Added block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' to location 'dn2'
+2025-11-11 09:11:11,705 - hdfs_clone.block_manager - INFO - MainThread - Added block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' to location 'dn3'
+2025-11-11 09:11:11,705 - hdfs_clone.block_manager - INFO - MainThread - Added block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' to location 'dn1'
+2025-11-11 09:11:11,705 - hdfs_clone.namespace - INFO - MainThread - Namespace loaded and 4 transactions replayed.
+2025-11-11 09:11:11,705 - hdfs_clone.namespace - INFO - MainThread - Building block-to-path map from loaded namespace...
+2025-11-11 09:11:11,705 - hdfs_clone.namespace - INFO - MainThread - Block-to-path map built with 1 entries.
+2025-11-11 09:11:11,705 - hdfs_clone.namespace - INFO - MainThread - Calculating initial quota usage...
+2025-11-11 09:11:11,705 - hdfs_clone.namespace - INFO - MainThread - Initial quota usage calculated.
+2025-11-11 09:11:11,705 - hdfs_clone.replication_manager - INFO - MainThread - Starting Replication Manager...
+2025-11-11 09:11:11,706 - hdfs_clone.dashboard - INFO - MainThread - Starting dashboard thread...
+2025-11-11 09:11:11,706 - hdfs_clone.dashboard - INFO - DashboardThread - Starting dashboard server on http://127.0.0.1:5001
+2025-11-11 09:11:11,706 - hdfs_clone.dashboard - INFO - MainThread - ============================================================
+2025-11-11 09:11:11,706 - hdfs_clone.dashboard - INFO - MainThread - DASHBOARD IS LIVE!
+2025-11-11 09:11:11,706 - hdfs_clone.dashboard - INFO - MainThread -   * Local URL:  http://127.0.0.1:5001
+2025-11-11 09:11:11,706 - hdfs_clone.dashboard - INFO - MainThread - ============================================================
+2025-11-11 09:11:11,707 - hdfs_clone.namenode - INFO - MainThread - NameNode started successfully.
+2025-11-11 09:11:11,707 - hdfs_clone.datanode.dn1 - INFO - MainThread - Starting DataNode 'dn1'...
+2025-11-11 09:11:11,707 - hdfs_clone.block_manager - INFO - MainThread - Registering DataNode: 'dn1'
+2025-11-11 09:11:11,707 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block report generated with 1 blocks.
+2025-11-11 09:11:11,707 - hdfs_clone.block_manager - INFO - MainThread - Processing block report from 'dn1' with 1 blocks.
+2025-11-11 09:11:11,707 - hdfs_clone.namenode - INFO - MainThread - Safe Mode: 1 of 1 blocks reported (100.00%)
+2025-11-11 09:11:11,707 - hdfs_clone.namenode - INFO - MainThread - ==================================================
+2025-11-11 09:11:11,707 - hdfs_clone.namenode - INFO - MainThread - NameNode LEAVING SAFE MODE. Writes enabled.
+2025-11-11 09:11:11,707 - hdfs_clone.namenode - INFO - MainThread - ==================================================
+2025-11-11 09:11:11,707 - hdfs_clone.datanode.dn1 - INFO - MainThread - Sent block report with 1 blocks.
+2025-11-11 09:11:11,708 - hdfs_clone.datanode.dn1 - INFO - HeartbeatSender-dn1 - Heartbeat sender thread started.
+2025-11-11 09:11:11,708 - hdfs_clone.datanode.dn1 - INFO - MainThread - DataNode 'dn1' started successfully.
+2025-11-11 09:11:11,708 - hdfs_clone.datanode.dn2 - INFO - MainThread - Starting DataNode 'dn2'...
+2025-11-11 09:11:11,708 - hdfs_clone.block_manager - INFO - MainThread - Registering DataNode: 'dn2'
+2025-11-11 09:11:11,708 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block report generated with 1 blocks.
+2025-11-11 09:11:11,708 - hdfs_clone.block_manager - INFO - MainThread - Processing block report from 'dn2' with 1 blocks.
+2025-11-11 09:11:11,708 - hdfs_clone.datanode.dn2 - INFO - MainThread - Sent block report with 1 blocks.
+2025-11-11 09:11:11,709 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread started.
+2025-11-11 09:11:11,709 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' started successfully.
+2025-11-11 09:11:11,709 - hdfs_clone.secondary_namenode - INFO - MainThread - Starting Secondary NameNode...
+2025-11-11 09:11:11,709 - hdfs_clone.secondary_namenode - INFO - SecondaryNameNodeThread - Checkpointing scheduled to run every 3600 seconds.
+2025-11-11 09:11:11,709 - hdfs_clone.secondary_namenode - INFO - SecondaryNameNodeThread - Checkpoint period started. Waiting...
+2025-11-11 09:11:41,718 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 09:11:41,718 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Scheduled replication of block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from 'dn1' to 'dn1'
+2025-11-11 09:11:41,718 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. Found 1 under-replicated blocks.
+2025-11-11 09:11:41,798 - hdfs_clone.datanode.dn1 - INFO - HeartbeatSender-dn1 - Received 1 command(s) from NameNode.
+2025-11-11 09:11:41,800 - hdfs_clone.datanode.dn1 - INFO - Thread-1 (execute_command) - Executing command: replicate
+2025-11-11 09:11:41,800 - hdfs_clone.datanode.dn1 - INFO - Thread-1 (execute_command) - Starting replication of block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from source 'dn1'
+2025-11-11 09:11:41,800 - hdfs_clone.datanode.dn1.storage - INFO - Thread-1 (execute_command) - Reading block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from './data/datanodes\dn1\blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51'
+2025-11-11 09:11:41,877 - hdfs_clone.datanode.dn1.storage - INFO - Thread-1 (execute_command) - Successfully read and verified block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51'.
+2025-11-11 09:11:41,878 - hdfs_clone.datanode.dn1.storage - INFO - Thread-1 (execute_command) - Writing block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' (37737595 bytes) to './data/datanodes\dn1\blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51'
+2025-11-11 09:11:41,952 - hdfs_clone.datanode.dn1.storage - INFO - Thread-1 (execute_command) - Successfully wrote block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' with checksum 3843169052.
+2025-11-11 09:11:41,952 - hdfs_clone.block_manager - INFO - Thread-1 (execute_command) - Added block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' to location 'dn1'
+2025-11-11 09:11:41,952 - hdfs_clone.datanode.dn1 - INFO - Thread-1 (execute_command) - Successfully replicated block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51'
+2025-11-11 09:11:43,838 - hdfs_clone.client - INFO - MainThread - Downloading HDFS file '/project_data/report.txt' to local 'final_report_from_hdfs.txt'
+2025-11-11 09:11:43,847 - hdfs_clone.input_stream - WARNING - MainThread - Failed to read block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from 'dn3': 'dn3'
+2025-11-11 09:11:43,847 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Reading block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from './data/datanodes\dn2\blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51'
+2025-11-11 09:11:43,886 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Successfully read and verified block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51'.
+2025-11-11 09:11:43,886 - hdfs_clone.input_stream - INFO - MainThread - Read block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from DataNode 'dn2'
+2025-11-11 09:11:43,959 - hdfs_clone.client - INFO - MainThread - Download complete.
+2025-11-11 09:11:53,733 - hdfs_clone - CRITICAL - MainThread - An unexpected error occurred in main: 
+Traceback (most recent call last):
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\cli\hdfs_shell.py", line 48, in run
+    if cmd in self.commands: self.commands[cmd](args)
+                             ~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\cli\hdfs_shell.py", line 128, in _do_quit
+    def _do_quit(self, args): raise EOFError
+                              ^^^^^^^^^^^^^^
+EOFError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\main.py", line 65, in main
+    shell.run()
+    ~~~~~~~~~^^
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\cli\hdfs_shell.py", line 51, in run
+    except EOFError: self._do_quit([])
+                     ~~~~~~~~~~~~~^^^^
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\cli\hdfs_shell.py", line 128, in _do_quit
+    def _do_quit(self, args): raise EOFError
+                              ^^^^^^^^^^^^^^
+EOFError
+2025-11-11 09:11:53,738 - hdfs_clone - INFO - MainThread - --- Stopping HDFS Clone Cluster ---
+2025-11-11 09:11:53,738 - hdfs_clone.secondary_namenode - INFO - MainThread - Stopping Secondary NameNode...
+2025-11-11 09:11:53,739 - hdfs_clone.secondary_namenode - INFO - MainThread - Secondary NameNode stopped.
+2025-11-11 09:11:53,739 - hdfs_clone.datanode.dn1 - INFO - MainThread - Stopping DataNode 'dn1'...
+2025-11-11 09:11:53,740 - hdfs_clone.datanode.dn1 - INFO - HeartbeatSender-dn1 - Heartbeat sender thread stopped.
+2025-11-11 09:11:53,740 - hdfs_clone.datanode.dn1 - INFO - MainThread - DataNode 'dn1' stopped.
+2025-11-11 09:11:53,741 - hdfs_clone.datanode.dn2 - INFO - MainThread - Stopping DataNode 'dn2'...
+2025-11-11 09:11:53,741 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread stopped.
+2025-11-11 09:11:53,742 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' stopped.
+2025-11-11 09:11:53,742 - hdfs_clone.namenode - INFO - MainThread - Stopping NameNode...
+2025-11-11 09:11:53,742 - hdfs_clone.dashboard - INFO - MainThread - Dashboard thread will be terminated on application exit.
+2025-11-11 09:11:53,742 - hdfs_clone.replication_manager - INFO - MainThread - Stopping Replication Manager...
+2025-11-11 09:11:53,743 - hdfs_clone.replication_manager - INFO - MainThread - Replication Manager stopped.
+2025-11-11 09:11:53,743 - hdfs_clone.namenode - INFO - MainThread - NameNode stopped.
+2025-11-11 09:11:53,743 - hdfs_clone - INFO - MainThread - --- HDFS Clone Cluster has been shut down. ---
+2025-11-11 09:12:14,043 - hdfs_clone.fsimage - INFO - MainThread - FsImageManager initialized. FsImage path: './data/namenode\fsimage.json'
+2025-11-11 09:12:14,044 - hdfs_clone.editlog - INFO - MainThread - EditLogManager initialized. EditLog path: './data/namenode\edits.json'. Last txid: 4
+2025-11-11 09:12:14,044 - hdfs_clone.block_manager - INFO - MainThread - BlockManager initialized.
+2025-11-11 09:12:14,044 - hdfs_clone.block_manager - INFO - MainThread - Loading topology from 'config/topology.json'
+2025-11-11 09:12:14,044 - hdfs_clone.block_manager - INFO - MainThread - Topology loaded: 2 racks found.
+2025-11-11 09:12:14,046 - hdfs_clone.namenode - INFO - MainThread - NameNode components initialized.
+2025-11-11 09:12:14,046 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn1'
+2025-11-11 09:12:14,047 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn2'
+2025-11-11 09:12:14,047 - hdfs_clone.datanode.dn3.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn3'
+2025-11-11 09:12:14,047 - hdfs_clone.client - INFO - MainThread - HDFSClient initialized.
+2025-11-11 09:12:14,048 - hdfs_clone.namenode - INFO - MainThread - Starting NameNode...
+2025-11-11 09:12:14,048 - hdfs_clone.namenode - WARNING - MainThread - ==================================================
+2025-11-11 09:12:14,048 - hdfs_clone.namenode - WARNING - MainThread - NameNode is starting in SAFE MODE. Writes disabled.
+2025-11-11 09:12:14,048 - hdfs_clone.namenode - WARNING - MainThread - ==================================================
+2025-11-11 09:12:14,048 - hdfs_clone.namespace - INFO - MainThread - Loading namespace from FsImage...
+2025-11-11 09:12:14,048 - hdfs_clone.fsimage - WARNING - MainThread - FsImage file not found. Creating a new initial namespace.
+2025-11-11 09:12:14,048 - hdfs_clone.namespace - INFO - MainThread - Replaying transactions from EditLog...
+2025-11-11 09:12:14,048 - hdfs_clone.editlog - INFO - MainThread - Loaded 4 transactions from EditLog.
+2025-11-11 09:12:14,048 - hdfs_clone.block_manager - INFO - MainThread - Added block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' to location 'dn2'
+2025-11-11 09:12:14,048 - hdfs_clone.block_manager - INFO - MainThread - Added block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' to location 'dn3'
+2025-11-11 09:12:14,048 - hdfs_clone.block_manager - INFO - MainThread - Added block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' to location 'dn1'
+2025-11-11 09:12:14,048 - hdfs_clone.namespace - INFO - MainThread - Namespace loaded and 4 transactions replayed.
+2025-11-11 09:12:14,048 - hdfs_clone.namespace - INFO - MainThread - Building block-to-path map from loaded namespace...
+2025-11-11 09:12:14,048 - hdfs_clone.namespace - INFO - MainThread - Block-to-path map built with 1 entries.
+2025-11-11 09:12:14,048 - hdfs_clone.namespace - INFO - MainThread - Calculating initial quota usage...
+2025-11-11 09:12:14,048 - hdfs_clone.namespace - INFO - MainThread - Initial quota usage calculated.
+2025-11-11 09:12:14,049 - hdfs_clone.replication_manager - INFO - MainThread - Starting Replication Manager...
+2025-11-11 09:12:14,049 - hdfs_clone.dashboard - INFO - MainThread - Starting dashboard thread...
+2025-11-11 09:12:14,050 - hdfs_clone.dashboard - INFO - DashboardThread - Starting dashboard server on http://127.0.0.1:5001
+2025-11-11 09:12:14,050 - hdfs_clone.dashboard - INFO - MainThread - ============================================================
+2025-11-11 09:12:14,050 - hdfs_clone.dashboard - INFO - MainThread - DASHBOARD IS LIVE!
+2025-11-11 09:12:14,050 - hdfs_clone.dashboard - INFO - MainThread -   * Local URL:  http://127.0.0.1:5001
+2025-11-11 09:12:14,050 - hdfs_clone.dashboard - INFO - MainThread - ============================================================
+2025-11-11 09:12:14,050 - hdfs_clone.namenode - INFO - MainThread - NameNode started successfully.
+2025-11-11 09:12:14,050 - hdfs_clone.datanode.dn1 - INFO - MainThread - Starting DataNode 'dn1'...
+2025-11-11 09:12:14,050 - hdfs_clone.block_manager - INFO - MainThread - Registering DataNode: 'dn1'
+2025-11-11 09:12:14,051 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block report generated with 1 blocks.
+2025-11-11 09:12:14,051 - hdfs_clone.block_manager - INFO - MainThread - Processing block report from 'dn1' with 1 blocks.
+2025-11-11 09:12:14,051 - hdfs_clone.namenode - INFO - MainThread - Safe Mode: 1 of 1 blocks reported (100.00%)
+2025-11-11 09:12:14,051 - hdfs_clone.namenode - INFO - MainThread - ==================================================
+2025-11-11 09:12:14,051 - hdfs_clone.namenode - INFO - MainThread - NameNode LEAVING SAFE MODE. Writes enabled.
+2025-11-11 09:12:14,051 - hdfs_clone.namenode - INFO - MainThread - ==================================================
+2025-11-11 09:12:14,051 - hdfs_clone.datanode.dn1 - INFO - MainThread - Sent block report with 1 blocks.
+2025-11-11 09:12:14,051 - hdfs_clone.datanode.dn1 - INFO - HeartbeatSender-dn1 - Heartbeat sender thread started.
+2025-11-11 09:12:14,051 - hdfs_clone.datanode.dn1 - INFO - MainThread - DataNode 'dn1' started successfully.
+2025-11-11 09:12:14,052 - hdfs_clone.datanode.dn2 - INFO - MainThread - Starting DataNode 'dn2'...
+2025-11-11 09:12:14,052 - hdfs_clone.block_manager - INFO - MainThread - Registering DataNode: 'dn2'
+2025-11-11 09:12:14,052 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block report generated with 1 blocks.
+2025-11-11 09:12:14,052 - hdfs_clone.block_manager - INFO - MainThread - Processing block report from 'dn2' with 1 blocks.
+2025-11-11 09:12:14,052 - hdfs_clone.datanode.dn2 - INFO - MainThread - Sent block report with 1 blocks.
+2025-11-11 09:12:14,052 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread started.
+2025-11-11 09:12:14,052 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' started successfully.
+2025-11-11 09:12:14,053 - hdfs_clone.datanode.dn3 - INFO - MainThread - Starting DataNode 'dn3'...
+2025-11-11 09:12:14,053 - hdfs_clone.block_manager - INFO - MainThread - Registering DataNode: 'dn3'
+2025-11-11 09:12:14,053 - hdfs_clone.datanode.dn3.storage - INFO - MainThread - Block report generated with 1 blocks.
+2025-11-11 09:12:14,053 - hdfs_clone.block_manager - INFO - MainThread - Processing block report from 'dn3' with 1 blocks.
+2025-11-11 09:12:14,053 - hdfs_clone.datanode.dn3 - INFO - MainThread - Sent block report with 1 blocks.
+2025-11-11 09:12:14,053 - hdfs_clone.datanode.dn3 - INFO - HeartbeatSender-dn3 - Heartbeat sender thread started.
+2025-11-11 09:12:14,053 - hdfs_clone.datanode.dn3 - INFO - MainThread - DataNode 'dn3' started successfully.
+2025-11-11 09:12:14,053 - hdfs_clone.secondary_namenode - INFO - MainThread - Starting Secondary NameNode...
+2025-11-11 09:12:14,053 - hdfs_clone.secondary_namenode - INFO - SecondaryNameNodeThread - Checkpointing scheduled to run every 3600 seconds.
+2025-11-11 09:12:14,054 - hdfs_clone.secondary_namenode - INFO - SecondaryNameNodeThread - Checkpoint period started. Waiting...
+2025-11-11 09:12:44,063 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 09:12:44,064 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 09:12:52,864 - hdfs_clone - CRITICAL - MainThread - An unexpected error occurred in main: 
+Traceback (most recent call last):
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\cli\hdfs_shell.py", line 48, in run
+    if cmd in self.commands: self.commands[cmd](args)
+                             ~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\cli\hdfs_shell.py", line 128, in _do_quit
+    def _do_quit(self, args): raise EOFError
+                              ^^^^^^^^^^^^^^
+EOFError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\main.py", line 65, in main
+    shell.run()
+    ~~~~~~~~~^^
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\cli\hdfs_shell.py", line 51, in run
+    except EOFError: self._do_quit([])
+                     ~~~~~~~~~~~~~^^^^
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\cli\hdfs_shell.py", line 128, in _do_quit
+    def _do_quit(self, args): raise EOFError
+                              ^^^^^^^^^^^^^^
+EOFError
+2025-11-11 09:12:52,869 - hdfs_clone - INFO - MainThread - --- Stopping HDFS Clone Cluster ---
+2025-11-11 09:12:52,870 - hdfs_clone.secondary_namenode - INFO - MainThread - Stopping Secondary NameNode...
+2025-11-11 09:12:52,871 - hdfs_clone.secondary_namenode - INFO - MainThread - Secondary NameNode stopped.
+2025-11-11 09:12:52,871 - hdfs_clone.datanode.dn1 - INFO - MainThread - Stopping DataNode 'dn1'...
+2025-11-11 09:12:52,871 - hdfs_clone.datanode.dn1 - INFO - HeartbeatSender-dn1 - Heartbeat sender thread stopped.
+2025-11-11 09:12:52,872 - hdfs_clone.datanode.dn1 - INFO - MainThread - DataNode 'dn1' stopped.
+2025-11-11 09:12:52,872 - hdfs_clone.datanode.dn2 - INFO - MainThread - Stopping DataNode 'dn2'...
+2025-11-11 09:12:52,873 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread stopped.
+2025-11-11 09:12:52,873 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' stopped.
+2025-11-11 09:12:52,874 - hdfs_clone.datanode.dn3 - INFO - MainThread - Stopping DataNode 'dn3'...
+2025-11-11 09:12:52,874 - hdfs_clone.datanode.dn3 - INFO - HeartbeatSender-dn3 - Heartbeat sender thread stopped.
+2025-11-11 09:12:52,875 - hdfs_clone.datanode.dn3 - INFO - MainThread - DataNode 'dn3' stopped.
+2025-11-11 09:12:52,875 - hdfs_clone.namenode - INFO - MainThread - Stopping NameNode...
+2025-11-11 09:12:52,875 - hdfs_clone.dashboard - INFO - MainThread - Dashboard thread will be terminated on application exit.
+2025-11-11 09:12:52,875 - hdfs_clone.replication_manager - INFO - MainThread - Stopping Replication Manager...
+2025-11-11 09:12:52,876 - hdfs_clone.replication_manager - INFO - MainThread - Replication Manager stopped.
+2025-11-11 09:12:52,876 - hdfs_clone.namenode - INFO - MainThread - NameNode stopped.
+2025-11-11 09:12:52,876 - hdfs_clone - INFO - MainThread - --- HDFS Clone Cluster has been shut down. ---
+2025-11-11 11:50:17,570 - hdfs_clone.fsimage - INFO - MainThread - FsImageManager initialized. FsImage path: './data/namenode\fsimage.json'
+2025-11-11 11:50:17,571 - hdfs_clone.editlog - INFO - MainThread - EditLogManager initialized. EditLog path: './data/namenode\edits.json'. Last txid: 4
+2025-11-11 11:50:17,571 - hdfs_clone.block_manager - INFO - MainThread - BlockManager initialized.
+2025-11-11 11:50:17,571 - hdfs_clone.block_manager - INFO - MainThread - Loading topology from 'config/topology.json'
+2025-11-11 11:50:17,571 - hdfs_clone.block_manager - INFO - MainThread - Topology loaded: 2 racks found.
+2025-11-11 11:50:17,575 - hdfs_clone.namenode - INFO - MainThread - NameNode components initialized.
+2025-11-11 11:50:17,575 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn1'
+2025-11-11 11:50:17,576 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn2'
+2025-11-11 11:50:17,576 - hdfs_clone.datanode.dn3.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn3'
+2025-11-11 11:50:17,576 - hdfs_clone.client - INFO - MainThread - HDFSClient initialized.
+2025-11-11 11:50:17,577 - hdfs_clone.namenode - INFO - MainThread - Starting NameNode...
+2025-11-11 11:50:17,577 - hdfs_clone.namenode - WARNING - MainThread - ==================================================
+2025-11-11 11:50:17,577 - hdfs_clone.namenode - WARNING - MainThread - NameNode is starting in SAFE MODE. Writes disabled.
+2025-11-11 11:50:17,577 - hdfs_clone.namenode - WARNING - MainThread - ==================================================
+2025-11-11 11:50:17,578 - hdfs_clone.namespace - INFO - MainThread - Loading namespace from FsImage...
+2025-11-11 11:50:17,578 - hdfs_clone.fsimage - WARNING - MainThread - FsImage file not found. Creating a new initial namespace.
+2025-11-11 11:50:17,578 - hdfs_clone.namespace - INFO - MainThread - Replaying transactions from EditLog...
+2025-11-11 11:50:17,578 - hdfs_clone.editlog - INFO - MainThread - Loaded 4 transactions from EditLog.
+2025-11-11 11:50:17,579 - hdfs_clone.block_manager - INFO - MainThread - Added block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' to location 'dn2'
+2025-11-11 11:50:17,579 - hdfs_clone.block_manager - INFO - MainThread - Added block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' to location 'dn3'
+2025-11-11 11:50:17,579 - hdfs_clone.block_manager - INFO - MainThread - Added block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' to location 'dn1'
+2025-11-11 11:50:17,579 - hdfs_clone.namespace - INFO - MainThread - Namespace loaded and 4 transactions replayed.
+2025-11-11 11:50:17,579 - hdfs_clone.namespace - INFO - MainThread - Building block-to-path map from loaded namespace...
+2025-11-11 11:50:17,579 - hdfs_clone.namespace - INFO - MainThread - Block-to-path map built with 1 entries.
+2025-11-11 11:50:17,579 - hdfs_clone.namespace - INFO - MainThread - Calculating initial quota usage...
+2025-11-11 11:50:17,579 - hdfs_clone.namespace - INFO - MainThread - Initial quota usage calculated.
+2025-11-11 11:50:17,580 - hdfs_clone.replication_manager - INFO - MainThread - Starting Replication Manager...
+2025-11-11 11:50:17,581 - hdfs_clone.dashboard - INFO - MainThread - Starting dashboard thread...
+2025-11-11 11:50:17,581 - hdfs_clone.dashboard - INFO - DashboardThread - Starting dashboard server on http://127.0.0.1:5001
+2025-11-11 11:50:17,582 - hdfs_clone.dashboard - INFO - MainThread - ============================================================
+2025-11-11 11:50:17,582 - hdfs_clone.dashboard - INFO - MainThread - DASHBOARD IS LIVE!
+2025-11-11 11:50:17,583 - hdfs_clone.dashboard - INFO - MainThread -   * Local URL:  http://127.0.0.1:5001
+2025-11-11 11:50:17,583 - hdfs_clone.dashboard - INFO - MainThread - ============================================================
+2025-11-11 11:50:17,584 - hdfs_clone.namenode - INFO - MainThread - NameNode started successfully.
+2025-11-11 11:50:17,584 - hdfs_clone.datanode.dn1 - INFO - MainThread - Starting DataNode 'dn1'...
+2025-11-11 11:50:17,585 - hdfs_clone.block_manager - INFO - MainThread - Registering DataNode: 'dn1'
+2025-11-11 11:50:17,585 - hdfs_clone.datanode.dn1.storage - INFO - MainThread - Block report generated with 1 blocks.
+2025-11-11 11:50:17,585 - hdfs_clone.block_manager - INFO - MainThread - Processing block report from 'dn1' with 1 blocks.
+2025-11-11 11:50:17,585 - hdfs_clone.namenode - INFO - MainThread - Safe Mode: 1 of 1 blocks reported (100.00%)
+2025-11-11 11:50:17,585 - hdfs_clone.namenode - INFO - MainThread - ==================================================
+2025-11-11 11:50:17,586 - hdfs_clone.namenode - INFO - MainThread - NameNode LEAVING SAFE MODE. Writes enabled.
+2025-11-11 11:50:17,586 - hdfs_clone.namenode - INFO - MainThread - ==================================================
+2025-11-11 11:50:17,586 - hdfs_clone.datanode.dn1 - INFO - MainThread - Sent block report with 1 blocks.
+2025-11-11 11:50:17,586 - hdfs_clone.datanode.dn1 - INFO - HeartbeatSender-dn1 - Heartbeat sender thread started.
+2025-11-11 11:50:17,587 - hdfs_clone.datanode.dn1 - INFO - MainThread - DataNode 'dn1' started successfully.
+2025-11-11 11:50:17,587 - hdfs_clone.datanode.dn2 - INFO - MainThread - Starting DataNode 'dn2'...
+2025-11-11 11:50:17,587 - hdfs_clone.block_manager - INFO - MainThread - Registering DataNode: 'dn2'
+2025-11-11 11:50:17,587 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block report generated with 1 blocks.
+2025-11-11 11:50:17,587 - hdfs_clone.block_manager - INFO - MainThread - Processing block report from 'dn2' with 1 blocks.
+2025-11-11 11:50:17,587 - hdfs_clone.datanode.dn2 - INFO - MainThread - Sent block report with 1 blocks.
+2025-11-11 11:50:17,588 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread started.
+2025-11-11 11:50:17,588 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' started successfully.
+2025-11-11 11:50:17,589 - hdfs_clone.datanode.dn3 - INFO - MainThread - Starting DataNode 'dn3'...
+2025-11-11 11:50:17,589 - hdfs_clone.block_manager - INFO - MainThread - Registering DataNode: 'dn3'
+2025-11-11 11:50:17,590 - hdfs_clone.datanode.dn3.storage - INFO - MainThread - Block report generated with 1 blocks.
+2025-11-11 11:50:17,590 - hdfs_clone.block_manager - INFO - MainThread - Processing block report from 'dn3' with 1 blocks.
+2025-11-11 11:50:17,590 - hdfs_clone.datanode.dn3 - INFO - MainThread - Sent block report with 1 blocks.
+2025-11-11 11:50:17,591 - hdfs_clone.datanode.dn3 - INFO - HeartbeatSender-dn3 - Heartbeat sender thread started.
+2025-11-11 11:50:17,591 - hdfs_clone.datanode.dn3 - INFO - MainThread - DataNode 'dn3' started successfully.
+2025-11-11 11:50:17,592 - hdfs_clone.secondary_namenode - INFO - MainThread - Starting Secondary NameNode...
+2025-11-11 11:50:17,592 - hdfs_clone.secondary_namenode - INFO - SecondaryNameNodeThread - Checkpointing scheduled to run every 3600 seconds.
+2025-11-11 11:50:17,593 - hdfs_clone.secondary_namenode - INFO - SecondaryNameNodeThread - Checkpoint period started. Waiting...
+2025-11-11 11:50:47,581 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 11:50:47,582 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 11:51:17,592 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 11:51:17,592 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 11:51:47,597 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 11:51:47,597 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 11:52:17,604 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 11:52:17,604 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 11:52:47,606 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 11:52:47,607 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 11:53:17,619 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 11:53:17,619 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 11:53:47,624 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 11:53:47,624 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 11:54:17,638 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 11:54:17,638 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 11:54:47,644 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 11:54:47,644 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 11:55:17,655 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 11:55:17,655 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 11:55:47,662 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 11:55:47,663 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 11:56:17,667 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 11:56:17,667 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 11:56:47,673 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 11:56:47,673 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 11:57:17,685 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 11:57:17,685 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 11:57:47,698 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Running replication level check...
+2025-11-11 11:57:47,698 - hdfs_clone.replication_manager - INFO - ReplicationManagerThread - Replication check finished. All blocks are sufficiently replicated.
+2025-11-11 11:58:09,555 - hdfs_clone - CRITICAL - MainThread - An unexpected error occurred in main: 
+Traceback (most recent call last):
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\cli\hdfs_shell.py", line 48, in run
+    if cmd in self.commands: self.commands[cmd](args)
+                             ~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\cli\hdfs_shell.py", line 128, in _do_quit
+    def _do_quit(self, args): raise EOFError
+                              ^^^^^^^^^^^^^^
+EOFError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\main.py", line 65, in main
+    shell.run()
+    ~~~~~~~~~^^
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\cli\hdfs_shell.py", line 51, in run
+    except EOFError: self._do_quit([])
+                     ~~~~~~~~~~~~~^^^^
+  File "C:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\cli\hdfs_shell.py", line 128, in _do_quit
+    def _do_quit(self, args): raise EOFError
+                              ^^^^^^^^^^^^^^
+EOFError
+2025-11-11 11:58:09,591 - hdfs_clone - INFO - MainThread - --- Stopping HDFS Clone Cluster ---
+2025-11-11 11:58:09,592 - hdfs_clone.secondary_namenode - INFO - MainThread - Stopping Secondary NameNode...
+2025-11-11 11:58:09,592 - hdfs_clone.secondary_namenode - INFO - MainThread - Secondary NameNode stopped.
+2025-11-11 11:58:09,592 - hdfs_clone.datanode.dn1 - INFO - MainThread - Stopping DataNode 'dn1'...
+2025-11-11 11:58:09,592 - hdfs_clone.datanode.dn1 - INFO - HeartbeatSender-dn1 - Heartbeat sender thread stopped.
+2025-11-11 11:58:09,592 - hdfs_clone.datanode.dn1 - INFO - MainThread - DataNode 'dn1' stopped.
+2025-11-11 11:58:09,592 - hdfs_clone.datanode.dn2 - INFO - MainThread - Stopping DataNode 'dn2'...
+2025-11-11 11:58:09,592 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread stopped.
+2025-11-11 11:58:09,592 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' stopped.
+2025-11-11 11:58:09,592 - hdfs_clone.datanode.dn3 - INFO - MainThread - Stopping DataNode 'dn3'...
+2025-11-11 11:58:09,592 - hdfs_clone.datanode.dn3 - INFO - HeartbeatSender-dn3 - Heartbeat sender thread stopped.
+2025-11-11 11:58:09,592 - hdfs_clone.datanode.dn3 - INFO - MainThread - DataNode 'dn3' stopped.
+2025-11-11 11:58:09,593 - hdfs_clone.namenode - INFO - MainThread - Stopping NameNode...
+2025-11-11 11:58:09,593 - hdfs_clone.dashboard - INFO - MainThread - Dashboard thread will be terminated on application exit.
+2025-11-11 11:58:09,593 - hdfs_clone.replication_manager - INFO - MainThread - Stopping Replication Manager...
+2025-11-11 11:58:09,593 - hdfs_clone.replication_manager - INFO - MainThread - Replication Manager stopped.
+2025-11-11 11:58:09,593 - hdfs_clone.namenode - INFO - MainThread - NameNode stopped.
+2025-11-11 11:58:09,593 - hdfs_clone - INFO - MainThread - --- HDFS Clone Cluster has been shut down. ---

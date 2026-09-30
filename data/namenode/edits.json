@@ -1,0 +1,4 @@
+{"txid": 1, "operation": "MKDIR", "timestamp": 1762831478.8754048, "params": {"path": "/project_data", "permissions": "755", "owner": "testuser", "group": "testgroup"}}
+{"txid": 2, "operation": "CREATE", "timestamp": 1762831840.5102699, "params": {"path": "/project_data/report.txt", "permissions": "644", "replication": 3, "block_size": 134217728, "owner": "testuser", "group": "testgroup"}}
+{"txid": 3, "operation": "ADD_BLOCK", "timestamp": 1762831840.6409905, "params": {"path": "/project_data/report.txt", "block_id": "blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51", "locations": ["dn2", "dn3", "dn1"]}}
+{"txid": 4, "operation": "COMPLETE_FILE", "timestamp": 1762831840.7980142, "params": {"path": "/project_data/report.txt", "file_size": 37737595}}

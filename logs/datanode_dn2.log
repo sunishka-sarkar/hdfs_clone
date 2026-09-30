@@ -1,0 +1,658 @@
+2025-11-11 12:59:38,612 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn2'
+2025-11-11 12:59:38,613 - hdfs_clone.datanode.dn2 - INFO - MainThread - Starting DataNode 'dn2'...
+2025-11-11 12:59:39,644 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block report generated with 1 blocks.
+2025-11-11 12:59:39,671 - hdfs_clone.datanode.dn2 - INFO - MainThread - Sent block report with 1 blocks.
+2025-11-11 12:59:39,672 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread started.
+2025-11-11 12:59:39,672 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' started successfully.
+2025-11-11 13:00:09,979 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Received 1 command(s) from NameNode.
+2025-11-11 13:00:09,980 - hdfs_clone.datanode.dn2 - INFO - Thread-1 (execute_command) - Executing command: replicate
+2025-11-11 13:00:09,980 - hdfs_clone.datanode.dn2 - INFO - Thread-1 (execute_command) - Starting replication of block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from source 'dn2'
+2025-11-11 13:00:09,980 - hdfs_clone.datanode.dn2 - ERROR - Thread-1 (execute_command) - Failed to replicate block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51': Source DataNode 'dn2' not found in local map.
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 104, in replicate_block
+    raise HDFSCloneException(f"Source DataNode '{source_dn_id}' not found in local map.")
+common.exceptions.HDFSCloneException: Source DataNode 'dn2' not found in local map.
+2025-11-11 13:00:40,174 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Received 1 command(s) from NameNode.
+2025-11-11 13:00:40,174 - hdfs_clone.datanode.dn2 - INFO - Thread-2 (execute_command) - Executing command: replicate
+2025-11-11 13:00:40,174 - hdfs_clone.datanode.dn2 - INFO - Thread-2 (execute_command) - Starting replication of block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from source 'dn2'
+2025-11-11 13:00:40,174 - hdfs_clone.datanode.dn2 - ERROR - Thread-2 (execute_command) - Failed to replicate block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51': Source DataNode 'dn2' not found in local map.
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 104, in replicate_block
+    raise HDFSCloneException(f"Source DataNode '{source_dn_id}' not found in local map.")
+common.exceptions.HDFSCloneException: Source DataNode 'dn2' not found in local map.
+2025-11-11 13:01:10,501 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Received 1 command(s) from NameNode.
+2025-11-11 13:01:10,502 - hdfs_clone.datanode.dn2 - INFO - Thread-3 (execute_command) - Executing command: replicate
+2025-11-11 13:01:10,502 - hdfs_clone.datanode.dn2 - INFO - Thread-3 (execute_command) - Starting replication of block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from source 'dn2'
+2025-11-11 13:01:10,502 - hdfs_clone.datanode.dn2 - ERROR - Thread-3 (execute_command) - Failed to replicate block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51': Source DataNode 'dn2' not found in local map.
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 104, in replicate_block
+    raise HDFSCloneException(f"Source DataNode '{source_dn_id}' not found in local map.")
+common.exceptions.HDFSCloneException: Source DataNode 'dn2' not found in local map.
+2025-11-11 13:01:40,682 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Received 1 command(s) from NameNode.
+2025-11-11 13:01:40,683 - hdfs_clone.datanode.dn2 - INFO - Thread-4 (execute_command) - Executing command: replicate
+2025-11-11 13:01:40,683 - hdfs_clone.datanode.dn2 - INFO - Thread-4 (execute_command) - Starting replication of block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from source 'dn2'
+2025-11-11 13:01:40,683 - hdfs_clone.datanode.dn2 - ERROR - Thread-4 (execute_command) - Failed to replicate block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51': Source DataNode 'dn2' not found in local map.
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 104, in replicate_block
+    raise HDFSCloneException(f"Source DataNode '{source_dn_id}' not found in local map.")
+common.exceptions.HDFSCloneException: Source DataNode 'dn2' not found in local map.
+2025-11-11 13:02:10,896 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Received 1 command(s) from NameNode.
+2025-11-11 13:02:10,897 - hdfs_clone.datanode.dn2 - INFO - Thread-5 (execute_command) - Executing command: replicate
+2025-11-11 13:02:10,897 - hdfs_clone.datanode.dn2 - INFO - Thread-5 (execute_command) - Starting replication of block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from source 'dn2'
+2025-11-11 13:02:10,897 - hdfs_clone.datanode.dn2 - ERROR - Thread-5 (execute_command) - Failed to replicate block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51': Source DataNode 'dn2' not found in local map.
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 104, in replicate_block
+    raise HDFSCloneException(f"Source DataNode '{source_dn_id}' not found in local map.")
+common.exceptions.HDFSCloneException: Source DataNode 'dn2' not found in local map.
+2025-11-11 13:02:41,110 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Received 1 command(s) from NameNode.
+2025-11-11 13:02:41,111 - hdfs_clone.datanode.dn2 - INFO - Thread-6 (execute_command) - Executing command: replicate
+2025-11-11 13:02:41,111 - hdfs_clone.datanode.dn2 - INFO - Thread-6 (execute_command) - Starting replication of block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from source 'dn2'
+2025-11-11 13:02:41,111 - hdfs_clone.datanode.dn2 - ERROR - Thread-6 (execute_command) - Failed to replicate block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51': Source DataNode 'dn2' not found in local map.
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 104, in replicate_block
+    raise HDFSCloneException(f"Source DataNode '{source_dn_id}' not found in local map.")
+common.exceptions.HDFSCloneException: Source DataNode 'dn2' not found in local map.
+2025-11-11 13:03:09,410 - hdfs_clone.datanode.dn2 - INFO - MainThread - Stopping DataNode 'dn2'...
+2025-11-11 13:03:09,410 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread stopped.
+2025-11-11 13:03:09,410 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' stopped.
+2025-11-11 13:10:33,415 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn2'
+2025-11-11 13:10:33,416 - hdfs_clone.datanode.dn2 - INFO - MainThread - Starting DataNode 'dn2'...
+2025-11-11 13:10:34,514 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block report generated with 1 blocks.
+2025-11-11 13:10:34,610 - hdfs_clone.datanode.dn2 - INFO - MainThread - Sent block report with 1 blocks.
+2025-11-11 13:10:34,610 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread started.
+2025-11-11 13:10:34,610 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' started successfully.
+2025-11-11 13:10:40,611 - hdfs_clone.datanode.dn2 - INFO - MainThread - Stopping DataNode 'dn2'...
+2025-11-11 13:10:40,611 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread stopped.
+2025-11-11 13:10:40,611 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' stopped.
+2025-11-11 13:13:56,520 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn2'
+2025-11-11 13:13:56,520 - hdfs_clone.datanode.dn2 - INFO - MainThread - Starting DataNode 'dn2'...
+2025-11-11 13:13:57,544 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block report generated with 1 blocks.
+2025-11-11 13:13:57,568 - hdfs_clone.datanode.dn2 - INFO - MainThread - Sent block report with 1 blocks.
+2025-11-11 13:13:57,569 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread started.
+2025-11-11 13:13:57,569 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' started successfully.
+2025-11-11 13:14:30,775 - hdfs_clone.datanode.dn2 - ERROR - HeartbeatSender-dn2 - Error in heartbeat loop: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 64, in _heartbeat_sender
+    commands = self.namenode.send_heartbeat(self.datanode_id)
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1096, in __call__
+    return self.__send(self.__name, args)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1435, in __request
+    response = self.__transport.request(
+        self.__host,
+    ...<2 lines>...
+        verbose=self.__verbose
+        )
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1140, in request
+    return self.single_request(host, handler, request_body, verbose)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1152, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1265, in send_request
+    self.send_content(connection, request_body)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1295, in send_content
+    connection.endheaders(request_body)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1093, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1037, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1003, in connect
+    self.sock = self._create_connection(
+                ~~~~~~~~~~~~~~~~~~~~~~~^
+        (self.host,self.port), self.timeout, self.source_address)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 864, in create_connection
+    raise exceptions[0]
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 849, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-11-11 13:14:34,729 - hdfs_clone.datanode.dn2 - INFO - MainThread - Stopping DataNode 'dn2'...
+2025-11-11 13:14:54,878 - hdfs_clone.datanode.dn2 - ERROR - HeartbeatSender-dn2 - Error in heartbeat loop: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 64, in _heartbeat_sender
+    commands = self.namenode.send_heartbeat(self.datanode_id)
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1096, in __call__
+    return self.__send(self.__name, args)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1435, in __request
+    response = self.__transport.request(
+        self.__host,
+    ...<2 lines>...
+        verbose=self.__verbose
+        )
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1140, in request
+    return self.single_request(host, handler, request_body, verbose)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1152, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1265, in send_request
+    self.send_content(connection, request_body)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1295, in send_content
+    connection.endheaders(request_body)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1093, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1037, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1003, in connect
+    self.sock = self._create_connection(
+                ~~~~~~~~~~~~~~~~~~~~~~~^
+        (self.host,self.port), self.timeout, self.source_address)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 864, in create_connection
+    raise exceptions[0]
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 849, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-11-11 13:14:54,881 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread stopped.
+2025-11-11 13:14:54,881 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' stopped.
+2025-11-11 13:17:16,819 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn2'
+2025-11-11 13:17:16,819 - hdfs_clone.datanode.dn2 - INFO - MainThread - Starting DataNode 'dn2'...
+2025-11-11 13:17:17,835 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block report generated with 1 blocks.
+2025-11-11 13:17:17,843 - hdfs_clone.datanode.dn2 - INFO - MainThread - Sent block report with 1 blocks.
+2025-11-11 13:17:17,843 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread started.
+2025-11-11 13:17:17,844 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' started successfully.
+2025-11-11 13:17:50,973 - hdfs_clone.datanode.dn2 - ERROR - HeartbeatSender-dn2 - Error in heartbeat loop: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 64, in _heartbeat_sender
+    commands = self.namenode.send_heartbeat(self.datanode_id)
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1096, in __call__
+    return self.__send(self.__name, args)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1435, in __request
+    response = self.__transport.request(
+        self.__host,
+    ...<2 lines>...
+        verbose=self.__verbose
+        )
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1140, in request
+    return self.single_request(host, handler, request_body, verbose)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1152, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1265, in send_request
+    self.send_content(connection, request_body)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1295, in send_content
+    connection.endheaders(request_body)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1093, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1037, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1003, in connect
+    self.sock = self._create_connection(
+                ~~~~~~~~~~~~~~~~~~~~~~~^
+        (self.host,self.port), self.timeout, self.source_address)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 864, in create_connection
+    raise exceptions[0]
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 849, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-11-11 13:18:15,025 - hdfs_clone.datanode.dn2 - ERROR - HeartbeatSender-dn2 - Error in heartbeat loop: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 64, in _heartbeat_sender
+    commands = self.namenode.send_heartbeat(self.datanode_id)
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1096, in __call__
+    return self.__send(self.__name, args)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1435, in __request
+    response = self.__transport.request(
+        self.__host,
+    ...<2 lines>...
+        verbose=self.__verbose
+        )
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1140, in request
+    return self.single_request(host, handler, request_body, verbose)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1152, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1265, in send_request
+    self.send_content(connection, request_body)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1295, in send_content
+    connection.endheaders(request_body)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1093, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1037, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1003, in connect
+    self.sock = self._create_connection(
+                ~~~~~~~~~~~~~~~~~~~~~~~^
+        (self.host,self.port), self.timeout, self.source_address)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 864, in create_connection
+    raise exceptions[0]
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 849, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-11-11 13:18:39,087 - hdfs_clone.datanode.dn2 - ERROR - HeartbeatSender-dn2 - Error in heartbeat loop: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 64, in _heartbeat_sender
+    commands = self.namenode.send_heartbeat(self.datanode_id)
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1096, in __call__
+    return self.__send(self.__name, args)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1435, in __request
+    response = self.__transport.request(
+        self.__host,
+    ...<2 lines>...
+        verbose=self.__verbose
+        )
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1140, in request
+    return self.single_request(host, handler, request_body, verbose)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1152, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1265, in send_request
+    self.send_content(connection, request_body)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1295, in send_content
+    connection.endheaders(request_body)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1093, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1037, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1003, in connect
+    self.sock = self._create_connection(
+                ~~~~~~~~~~~~~~~~~~~~~~~^
+        (self.host,self.port), self.timeout, self.source_address)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 864, in create_connection
+    raise exceptions[0]
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 849, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-11-11 13:19:03,132 - hdfs_clone.datanode.dn2 - ERROR - HeartbeatSender-dn2 - Error in heartbeat loop: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 64, in _heartbeat_sender
+    commands = self.namenode.send_heartbeat(self.datanode_id)
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1096, in __call__
+    return self.__send(self.__name, args)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1435, in __request
+    response = self.__transport.request(
+        self.__host,
+    ...<2 lines>...
+        verbose=self.__verbose
+        )
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1140, in request
+    return self.single_request(host, handler, request_body, verbose)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1152, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1265, in send_request
+    self.send_content(connection, request_body)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1295, in send_content
+    connection.endheaders(request_body)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1093, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1037, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1003, in connect
+    self.sock = self._create_connection(
+                ~~~~~~~~~~~~~~~~~~~~~~~^
+        (self.host,self.port), self.timeout, self.source_address)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 864, in create_connection
+    raise exceptions[0]
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 849, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-11-11 13:19:19,143 - hdfs_clone.datanode.dn2 - INFO - MainThread - Stopping DataNode 'dn2'...
+2025-11-11 13:19:27,188 - hdfs_clone.datanode.dn2 - ERROR - HeartbeatSender-dn2 - Error in heartbeat loop: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 64, in _heartbeat_sender
+    commands = self.namenode.send_heartbeat(self.datanode_id)
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1096, in __call__
+    return self.__send(self.__name, args)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1435, in __request
+    response = self.__transport.request(
+        self.__host,
+    ...<2 lines>...
+        verbose=self.__verbose
+        )
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1140, in request
+    return self.single_request(host, handler, request_body, verbose)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1152, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1265, in send_request
+    self.send_content(connection, request_body)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1295, in send_content
+    connection.endheaders(request_body)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1093, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1037, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1003, in connect
+    self.sock = self._create_connection(
+                ~~~~~~~~~~~~~~~~~~~~~~~^
+        (self.host,self.port), self.timeout, self.source_address)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 864, in create_connection
+    raise exceptions[0]
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 849, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-11-11 13:19:27,193 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread stopped.
+2025-11-11 13:19:27,194 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' stopped.
+2025-11-11 13:29:47,564 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn2'
+2025-11-11 13:29:47,564 - hdfs_clone.datanode.dn2 - INFO - MainThread - Starting DataNode 'dn2'...
+2025-11-11 13:29:48,611 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block report generated with 1 blocks.
+2025-11-11 13:29:48,654 - hdfs_clone.datanode.dn2 - INFO - MainThread - Sent block report with 1 blocks.
+2025-11-11 13:29:48,655 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread started.
+2025-11-11 13:29:48,655 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' started successfully.
+2025-11-11 13:30:18,938 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Received 1 command(s) from NameNode.
+2025-11-11 13:30:18,939 - hdfs_clone.datanode.dn2 - INFO - Thread-1 (execute_command) - Executing command: replicate
+2025-11-11 13:30:18,939 - hdfs_clone.datanode.dn2 - INFO - Thread-1 (execute_command) - Starting replication of block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from source 'dn2'
+2025-11-11 13:30:18,939 - hdfs_clone.datanode.dn2 - ERROR - Thread-1 (execute_command) - Failed to replicate block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51': Source DataNode 'dn2' not found in local map.
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 104, in replicate_block
+    raise HDFSCloneException(f"Source DataNode '{source_dn_id}' not found in local map.")
+common.exceptions.HDFSCloneException: Source DataNode 'dn2' not found in local map.
+2025-11-11 13:30:49,172 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Received 1 command(s) from NameNode.
+2025-11-11 13:30:49,172 - hdfs_clone.datanode.dn2 - INFO - Thread-2 (execute_command) - Executing command: replicate
+2025-11-11 13:30:49,173 - hdfs_clone.datanode.dn2 - INFO - Thread-2 (execute_command) - Starting replication of block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from source 'dn2'
+2025-11-11 13:30:49,173 - hdfs_clone.datanode.dn2 - ERROR - Thread-2 (execute_command) - Failed to replicate block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51': Source DataNode 'dn2' not found in local map.
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 104, in replicate_block
+    raise HDFSCloneException(f"Source DataNode '{source_dn_id}' not found in local map.")
+common.exceptions.HDFSCloneException: Source DataNode 'dn2' not found in local map.
+2025-11-11 13:31:19,485 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Received 1 command(s) from NameNode.
+2025-11-11 13:31:19,486 - hdfs_clone.datanode.dn2 - INFO - Thread-3 (execute_command) - Executing command: replicate
+2025-11-11 13:31:19,486 - hdfs_clone.datanode.dn2 - INFO - Thread-3 (execute_command) - Starting replication of block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from source 'dn2'
+2025-11-11 13:31:19,486 - hdfs_clone.datanode.dn2 - ERROR - Thread-3 (execute_command) - Failed to replicate block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51': Source DataNode 'dn2' not found in local map.
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 104, in replicate_block
+    raise HDFSCloneException(f"Source DataNode '{source_dn_id}' not found in local map.")
+common.exceptions.HDFSCloneException: Source DataNode 'dn2' not found in local map.
+2025-11-11 13:31:50,790 - hdfs_clone.datanode.dn2 - INFO - MainThread - Stopping DataNode 'dn2'...
+2025-11-11 13:42:08,435 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn2'
+2025-11-11 13:42:08,435 - hdfs_clone.datanode.dn2 - INFO - MainThread - Starting DataNode 'dn2'...
+2025-11-11 13:42:09,559 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block report generated with 1 blocks.
+2025-11-11 13:42:09,579 - hdfs_clone.datanode.dn2 - INFO - MainThread - Sent block report with 1 blocks.
+2025-11-11 13:42:09,580 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread started.
+2025-11-11 13:42:09,580 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' started successfully.
+2025-11-11 13:42:40,916 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Received 1 command(s) from NameNode.
+2025-11-11 13:42:40,917 - hdfs_clone.datanode.dn2 - INFO - Thread-1 (execute_command) - Executing command: replicate
+2025-11-11 13:42:40,918 - hdfs_clone.datanode.dn2 - INFO - Thread-1 (execute_command) - Starting replication of block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from source 'dn2'
+2025-11-11 13:42:40,918 - hdfs_clone.datanode.dn2 - ERROR - Thread-1 (execute_command) - Failed to replicate block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51': Source DataNode 'dn2' not found in local map.
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 104, in replicate_block
+    raise HDFSCloneException(f"Source DataNode '{source_dn_id}' not found in local map.")
+common.exceptions.HDFSCloneException: Source DataNode 'dn2' not found in local map.
+2025-11-11 13:43:08,872 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Received 1 command(s) from NameNode.
+2025-11-11 13:43:08,874 - hdfs_clone.datanode.dn2 - INFO - Thread-2 (execute_command) - Executing command: replicate
+2025-11-11 13:43:08,874 - hdfs_clone.datanode.dn2 - INFO - Thread-2 (execute_command) - Starting replication of block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from source 'dn2'
+2025-11-11 13:43:08,875 - hdfs_clone.datanode.dn2 - ERROR - Thread-2 (execute_command) - Failed to replicate block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51': Source DataNode 'dn2' not found in local map.
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 104, in replicate_block
+    raise HDFSCloneException(f"Source DataNode '{source_dn_id}' not found in local map.")
+common.exceptions.HDFSCloneException: Source DataNode 'dn2' not found in local map.
+2025-11-11 13:43:39,693 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Received 1 command(s) from NameNode.
+2025-11-11 13:43:39,694 - hdfs_clone.datanode.dn2 - INFO - Thread-3 (execute_command) - Executing command: replicate
+2025-11-11 13:43:39,695 - hdfs_clone.datanode.dn2 - INFO - Thread-3 (execute_command) - Starting replication of block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from source 'dn2'
+2025-11-11 13:43:39,695 - hdfs_clone.datanode.dn2 - ERROR - Thread-3 (execute_command) - Failed to replicate block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51': Source DataNode 'dn2' not found in local map.
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 104, in replicate_block
+    raise HDFSCloneException(f"Source DataNode '{source_dn_id}' not found in local map.")
+common.exceptions.HDFSCloneException: Source DataNode 'dn2' not found in local map.
+2025-11-11 13:44:10,949 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Received 1 command(s) from NameNode.
+2025-11-11 13:44:10,950 - hdfs_clone.datanode.dn2 - INFO - Thread-4 (execute_command) - Executing command: replicate
+2025-11-11 13:44:10,951 - hdfs_clone.datanode.dn2 - INFO - Thread-4 (execute_command) - Starting replication of block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from source 'dn2'
+2025-11-11 13:44:10,951 - hdfs_clone.datanode.dn2 - ERROR - Thread-4 (execute_command) - Failed to replicate block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51': Source DataNode 'dn2' not found in local map.
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 104, in replicate_block
+    raise HDFSCloneException(f"Source DataNode '{source_dn_id}' not found in local map.")
+common.exceptions.HDFSCloneException: Source DataNode 'dn2' not found in local map.
+2025-11-11 13:44:39,639 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Received 1 command(s) from NameNode.
+2025-11-11 13:44:39,641 - hdfs_clone.datanode.dn2 - INFO - Thread-5 (execute_command) - Executing command: replicate
+2025-11-11 13:44:39,641 - hdfs_clone.datanode.dn2 - INFO - Thread-5 (execute_command) - Starting replication of block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from source 'dn2'
+2025-11-11 13:44:39,641 - hdfs_clone.datanode.dn2 - ERROR - Thread-5 (execute_command) - Failed to replicate block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51': Source DataNode 'dn2' not found in local map.
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 104, in replicate_block
+    raise HDFSCloneException(f"Source DataNode '{source_dn_id}' not found in local map.")
+common.exceptions.HDFSCloneException: Source DataNode 'dn2' not found in local map.
+2025-11-11 13:45:10,939 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Received 1 command(s) from NameNode.
+2025-11-11 13:45:10,940 - hdfs_clone.datanode.dn2 - INFO - Thread-6 (execute_command) - Executing command: replicate
+2025-11-11 13:45:10,940 - hdfs_clone.datanode.dn2 - INFO - Thread-6 (execute_command) - Starting replication of block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from source 'dn2'
+2025-11-11 13:45:10,940 - hdfs_clone.datanode.dn2 - ERROR - Thread-6 (execute_command) - Failed to replicate block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51': Source DataNode 'dn2' not found in local map.
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 104, in replicate_block
+    raise HDFSCloneException(f"Source DataNode '{source_dn_id}' not found in local map.")
+common.exceptions.HDFSCloneException: Source DataNode 'dn2' not found in local map.
+2025-11-11 13:45:39,369 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Received 1 command(s) from NameNode.
+2025-11-11 13:45:39,370 - hdfs_clone.datanode.dn2 - INFO - Thread-7 (execute_command) - Executing command: replicate
+2025-11-11 13:45:39,371 - hdfs_clone.datanode.dn2 - INFO - Thread-7 (execute_command) - Starting replication of block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from source 'dn2'
+2025-11-11 13:45:39,371 - hdfs_clone.datanode.dn2 - ERROR - Thread-7 (execute_command) - Failed to replicate block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51': Source DataNode 'dn2' not found in local map.
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 104, in replicate_block
+    raise HDFSCloneException(f"Source DataNode '{source_dn_id}' not found in local map.")
+common.exceptions.HDFSCloneException: Source DataNode 'dn2' not found in local map.
+2025-11-11 13:46:10,321 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Received 1 command(s) from NameNode.
+2025-11-11 13:46:10,323 - hdfs_clone.datanode.dn2 - INFO - Thread-8 (execute_command) - Executing command: replicate
+2025-11-11 13:46:10,323 - hdfs_clone.datanode.dn2 - INFO - Thread-8 (execute_command) - Starting replication of block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from source 'dn2'
+2025-11-11 13:46:10,323 - hdfs_clone.datanode.dn2 - ERROR - Thread-8 (execute_command) - Failed to replicate block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51': Source DataNode 'dn2' not found in local map.
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 104, in replicate_block
+    raise HDFSCloneException(f"Source DataNode '{source_dn_id}' not found in local map.")
+common.exceptions.HDFSCloneException: Source DataNode 'dn2' not found in local map.
+2025-11-11 13:46:41,450 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Received 1 command(s) from NameNode.
+2025-11-11 13:46:41,452 - hdfs_clone.datanode.dn2 - INFO - Thread-9 (execute_command) - Executing command: replicate
+2025-11-11 13:46:41,452 - hdfs_clone.datanode.dn2 - INFO - Thread-9 (execute_command) - Starting replication of block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from source 'dn2'
+2025-11-11 13:46:41,452 - hdfs_clone.datanode.dn2 - ERROR - Thread-9 (execute_command) - Failed to replicate block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51': Source DataNode 'dn2' not found in local map.
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 104, in replicate_block
+    raise HDFSCloneException(f"Source DataNode '{source_dn_id}' not found in local map.")
+common.exceptions.HDFSCloneException: Source DataNode 'dn2' not found in local map.
+2025-11-11 13:47:10,214 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Received 1 command(s) from NameNode.
+2025-11-11 13:47:10,216 - hdfs_clone.datanode.dn2 - INFO - Thread-10 (execute_command) - Executing command: replicate
+2025-11-11 13:47:10,224 - hdfs_clone.datanode.dn2 - INFO - Thread-10 (execute_command) - Starting replication of block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from source 'dn2'
+2025-11-11 13:47:10,224 - hdfs_clone.datanode.dn2 - ERROR - Thread-10 (execute_command) - Failed to replicate block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51': Source DataNode 'dn2' not found in local map.
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 104, in replicate_block
+    raise HDFSCloneException(f"Source DataNode '{source_dn_id}' not found in local map.")
+common.exceptions.HDFSCloneException: Source DataNode 'dn2' not found in local map.
+2025-11-11 13:47:41,456 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Received 1 command(s) from NameNode.
+2025-11-11 13:47:41,457 - hdfs_clone.datanode.dn2 - INFO - Thread-11 (execute_command) - Executing command: replicate
+2025-11-11 13:47:41,458 - hdfs_clone.datanode.dn2 - INFO - Thread-11 (execute_command) - Starting replication of block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from source 'dn2'
+2025-11-11 13:47:41,458 - hdfs_clone.datanode.dn2 - ERROR - Thread-11 (execute_command) - Failed to replicate block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51': Source DataNode 'dn2' not found in local map.
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 104, in replicate_block
+    raise HDFSCloneException(f"Source DataNode '{source_dn_id}' not found in local map.")
+common.exceptions.HDFSCloneException: Source DataNode 'dn2' not found in local map.
+2025-11-11 13:48:09,636 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Received 1 command(s) from NameNode.
+2025-11-11 13:48:09,638 - hdfs_clone.datanode.dn2 - INFO - Thread-12 (execute_command) - Executing command: replicate
+2025-11-11 13:48:09,638 - hdfs_clone.datanode.dn2 - INFO - Thread-12 (execute_command) - Starting replication of block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from source 'dn2'
+2025-11-11 13:48:09,638 - hdfs_clone.datanode.dn2 - ERROR - Thread-12 (execute_command) - Failed to replicate block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51': Source DataNode 'dn2' not found in local map.
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 104, in replicate_block
+    raise HDFSCloneException(f"Source DataNode '{source_dn_id}' not found in local map.")
+common.exceptions.HDFSCloneException: Source DataNode 'dn2' not found in local map.
+2025-11-11 13:48:40,781 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Received 1 command(s) from NameNode.
+2025-11-11 13:48:40,783 - hdfs_clone.datanode.dn2 - INFO - Thread-13 (execute_command) - Executing command: replicate
+2025-11-11 13:48:40,783 - hdfs_clone.datanode.dn2 - INFO - Thread-13 (execute_command) - Starting replication of block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from source 'dn2'
+2025-11-11 13:48:40,783 - hdfs_clone.datanode.dn2 - ERROR - Thread-13 (execute_command) - Failed to replicate block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51': Source DataNode 'dn2' not found in local map.
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 104, in replicate_block
+    raise HDFSCloneException(f"Source DataNode '{source_dn_id}' not found in local map.")
+common.exceptions.HDFSCloneException: Source DataNode 'dn2' not found in local map.
+2025-11-11 13:49:08,771 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Received 1 command(s) from NameNode.
+2025-11-11 13:49:08,772 - hdfs_clone.datanode.dn2 - INFO - Thread-14 (execute_command) - Executing command: replicate
+2025-11-11 13:49:08,773 - hdfs_clone.datanode.dn2 - INFO - Thread-14 (execute_command) - Starting replication of block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from source 'dn2'
+2025-11-11 13:49:08,773 - hdfs_clone.datanode.dn2 - ERROR - Thread-14 (execute_command) - Failed to replicate block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51': Source DataNode 'dn2' not found in local map.
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 104, in replicate_block
+    raise HDFSCloneException(f"Source DataNode '{source_dn_id}' not found in local map.")
+common.exceptions.HDFSCloneException: Source DataNode 'dn2' not found in local map.
+2025-11-11 13:49:39,716 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Received 1 command(s) from NameNode.
+2025-11-11 13:49:39,718 - hdfs_clone.datanode.dn2 - INFO - Thread-15 (execute_command) - Executing command: replicate
+2025-11-11 13:49:39,718 - hdfs_clone.datanode.dn2 - INFO - Thread-15 (execute_command) - Starting replication of block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from source 'dn2'
+2025-11-11 13:49:39,718 - hdfs_clone.datanode.dn2 - ERROR - Thread-15 (execute_command) - Failed to replicate block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51': Source DataNode 'dn2' not found in local map.
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 104, in replicate_block
+    raise HDFSCloneException(f"Source DataNode '{source_dn_id}' not found in local map.")
+common.exceptions.HDFSCloneException: Source DataNode 'dn2' not found in local map.
+2025-11-11 13:50:11,054 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Received 1 command(s) from NameNode.
+2025-11-11 13:50:11,055 - hdfs_clone.datanode.dn2 - INFO - Thread-16 (execute_command) - Executing command: replicate
+2025-11-11 13:50:11,055 - hdfs_clone.datanode.dn2 - INFO - Thread-16 (execute_command) - Starting replication of block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from source 'dn2'
+2025-11-11 13:50:11,055 - hdfs_clone.datanode.dn2 - ERROR - Thread-16 (execute_command) - Failed to replicate block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51': Source DataNode 'dn2' not found in local map.
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 104, in replicate_block
+    raise HDFSCloneException(f"Source DataNode '{source_dn_id}' not found in local map.")
+common.exceptions.HDFSCloneException: Source DataNode 'dn2' not found in local map.
+2025-11-11 13:50:40,549 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Received 1 command(s) from NameNode.
+2025-11-11 13:50:40,551 - hdfs_clone.datanode.dn2 - INFO - Thread-17 (execute_command) - Executing command: replicate
+2025-11-11 13:50:40,551 - hdfs_clone.datanode.dn2 - INFO - Thread-17 (execute_command) - Starting replication of block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from source 'dn2'
+2025-11-11 13:50:40,551 - hdfs_clone.datanode.dn2 - ERROR - Thread-17 (execute_command) - Failed to replicate block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51': Source DataNode 'dn2' not found in local map.
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 104, in replicate_block
+    raise HDFSCloneException(f"Source DataNode '{source_dn_id}' not found in local map.")
+common.exceptions.HDFSCloneException: Source DataNode 'dn2' not found in local map.
+2025-11-11 13:51:11,705 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Received 1 command(s) from NameNode.
+2025-11-11 13:51:11,706 - hdfs_clone.datanode.dn2 - INFO - Thread-18 (execute_command) - Executing command: replicate
+2025-11-11 13:51:11,707 - hdfs_clone.datanode.dn2 - INFO - Thread-18 (execute_command) - Starting replication of block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from source 'dn2'
+2025-11-11 13:51:11,707 - hdfs_clone.datanode.dn2 - ERROR - Thread-18 (execute_command) - Failed to replicate block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51': Source DataNode 'dn2' not found in local map.
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 104, in replicate_block
+    raise HDFSCloneException(f"Source DataNode '{source_dn_id}' not found in local map.")
+common.exceptions.HDFSCloneException: Source DataNode 'dn2' not found in local map.
+2025-11-11 13:51:40,484 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Received 1 command(s) from NameNode.
+2025-11-11 13:51:40,485 - hdfs_clone.datanode.dn2 - INFO - Thread-19 (execute_command) - Executing command: replicate
+2025-11-11 13:51:40,485 - hdfs_clone.datanode.dn2 - INFO - Thread-19 (execute_command) - Starting replication of block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51' from source 'dn2'
+2025-11-11 13:51:40,485 - hdfs_clone.datanode.dn2 - ERROR - Thread-19 (execute_command) - Failed to replicate block 'blk_4a8b9f58-ce77-4784-9a40-8fe9e315ed51': Source DataNode 'dn2' not found in local map.
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 104, in replicate_block
+    raise HDFSCloneException(f"Source DataNode '{source_dn_id}' not found in local map.")
+common.exceptions.HDFSCloneException: Source DataNode 'dn2' not found in local map.
+2025-11-12 13:02:18,988 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn2'
+2025-11-12 13:02:18,990 - hdfs_clone.datanode.dn2 - INFO - MainThread - Starting DataNode 'dn2'...
+2025-11-12 13:02:20,031 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block report generated with 1 blocks.
+2025-11-12 13:02:20,052 - hdfs_clone.datanode.dn2 - INFO - MainThread - Sent block report with 1 blocks.
+2025-11-12 13:02:20,053 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread started.
+2025-11-12 13:02:20,053 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' started successfully.
+2025-11-12 13:25:25,072 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn2'
+2025-11-12 13:25:25,073 - hdfs_clone.datanode.dn2 - INFO - MainThread - Starting DataNode 'dn2'...
+2025-11-12 13:25:25,085 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block report generated with 1 blocks.
+2025-11-12 13:25:25,096 - hdfs_clone.datanode.dn2 - INFO - MainThread - Sent block report with 1 blocks.
+2025-11-12 13:25:25,097 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread started.
+2025-11-12 13:25:25,097 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' started successfully.
+2025-11-12 13:25:37,767 - hdfs_clone.datanode.dn2 - INFO - MainThread - Stopping DataNode 'dn2'...
+2025-11-12 13:25:37,767 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread stopped.
+2025-11-12 13:25:37,767 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' stopped.
+2025-11-12 13:26:15,262 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn2'
+2025-11-12 13:26:15,262 - hdfs_clone.datanode.dn2 - INFO - MainThread - Starting DataNode 'dn2'...
+2025-11-12 13:26:36,295 - hdfs_clone.client_node - ERROR - MainThread - DataNode crash: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-11-12 13:30:40,297 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn2'
+2025-11-12 13:30:40,298 - hdfs_clone.datanode.dn2 - INFO - MainThread - Starting DataNode 'dn2'...
+2025-11-12 13:31:01,330 - hdfs_clone.client_node - ERROR - MainThread - DataNode crash: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-11-12 13:31:25,018 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn2'
+2025-11-12 13:31:25,019 - hdfs_clone.datanode.dn2 - INFO - MainThread - Starting DataNode 'dn2'...
+2025-11-12 13:31:26,045 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block report generated with 1 blocks.
+2025-11-12 13:31:26,057 - hdfs_clone.datanode.dn2 - INFO - MainThread - Sent block report with 1 blocks.
+2025-11-12 13:31:26,059 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread started.
+2025-11-12 13:31:26,059 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' started successfully.
+2025-11-12 13:32:15,529 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block storage initialized at './data/datanodes\dn2'
+2025-11-12 13:32:15,529 - hdfs_clone.datanode.dn2 - INFO - MainThread - Starting DataNode 'dn2'...
+2025-11-12 13:32:15,546 - hdfs_clone.datanode.dn2.storage - INFO - MainThread - Block report generated with 1 blocks.
+2025-11-12 13:32:15,570 - hdfs_clone.datanode.dn2 - INFO - MainThread - Sent block report with 1 blocks.
+2025-11-12 13:32:15,573 - hdfs_clone.datanode.dn2 - INFO - HeartbeatSender-dn2 - Heartbeat sender thread started.
+2025-11-12 13:32:15,573 - hdfs_clone.datanode.dn2 - INFO - MainThread - DataNode 'dn2' started successfully.
+2025-11-12 13:33:19,974 - hdfs_clone.datanode.dn2 - ERROR - HeartbeatSender-dn2 - Error in heartbeat loop: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Traceback (most recent call last):
+  File "c:\Users\dheer\OneDrive\Desktop\projects\hdfs_clone\datanode\datanode.py", line 64, in _heartbeat_sender
+    commands = self.namenode.send_heartbeat(self.datanode_id)
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1096, in __call__
+    return self.__send(self.__name, args)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1435, in __request
+    response = self.__transport.request(
+        self.__host,
+    ...<2 lines>...
+        verbose=self.__verbose
+        )
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1140, in request
+    return self.single_request(host, handler, request_body, verbose)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1152, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1265, in send_request
+    self.send_content(connection, request_body)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\xmlrpc\client.py", line 1295, in send_content
+    connection.endheaders(request_body)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1093, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1037, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1003, in connect
+    self.sock = self._create_connection(
+                ~~~~~~~~~~~~~~~~~~~~~~~^
+        (self.host,self.port), self.timeout, self.source_address)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 864, in create_connection
+    raise exceptions[0]
+  File "C:\Users\dheer\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 849, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond

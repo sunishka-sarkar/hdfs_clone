@@ -1,0 +1,3 @@
+# requirements.txt
+# Add any necessary Python libraries here.
+# For now, it's empty as we'll use the standard library initially.
